@@ -7,9 +7,8 @@ import (
 )
 
 func V1Index(c *gin.Context) {
-	model.DB.Create(&model.Product{Code: "L1212", Price: 1000})
-	var product model.Product
-	model.DB.First(&product, 1)
+	var product []model.Products
+	model.DB.Find(&product)
 	c.JSON(200, product)
 }
 
@@ -18,7 +17,7 @@ func V1POST(c *gin.Context) {
 	price := c.Query("price")
 	tmp,_ := strconv.Atoi(price)
 	p := uint(tmp)
-	model.DB.Create(&model.Product{
+	model.DB.Create(&model.Products{
 		Code:code,
 		Price:p,
 	})
@@ -30,7 +29,7 @@ func V1POST(c *gin.Context) {
 func V1Delete(c *gin.Context) {
 	id := c.Query("id")
 	if id != "" {
-		var product model.Product
+		var product model.Products
 		model.DB.First(&product, id)
 		model.DB.Delete(&product)
 		c.JSON(201, gin.H{

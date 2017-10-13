@@ -3,32 +3,77 @@ package model
 import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"fmt"
+	"github.com/robfig/config"
+	"log"
 )
 
 var DB *gorm.DB
 
-type Product struct {
-	gorm.Model
+const name = "conf.ini"
+
+type Products struct {
 	Code  string
 	Price uint
 }
 
-func connectMysql(url string) (db *gorm.DB) {
-	db, err := gorm.Open("mysql",url)
-	if err != nil {
-		panic("failed to connect database")
-	}
-	DB = db
-	db.Debug()
+
+func getMysqlUrl(conf *config.Config) (url string) {
+
+	user, _ := conf.String("mysql", "user")
+	host, _ := conf.String("mysql", "host")
+	password, _ := conf.String("mysql", "password")
+	database, _ := conf.String("mysql", "database")
+	url = fmt.Sprintf("%s:%s@tcp(%s:3306)/%s?charset=utf8&parseTime=True&loc=Local", user, password, host, database)
+	fmt.Println(url)
 	return
 }
-func createTable(){
-	db := connectMysql("admin:yangyang123@tcp(192.168.53.132:3306)/gorm?charset=utf8&parseTime=True&loc=Local")
-	db.AutoMigrate(&Product{})
+
+func getSqliteUrl(conf *config.Config) (url string) {
+	url, _ = conf.String("sqlite", "database")
+	return
 }
 
-func init(){
+func connectDB() (db *gorm.DB) {
+	conf, err := config.ReadDefault(name)
+	if err != nil{
+		log.Fatalln(err)
+	}
+	database, err := conf.String("database", "database")
+	if err != nil{
+		log.Fatalln(err)
+	}
+	if database == "mysql" {
+		url := getMysqlUrl(conf)
+		db, err = gorm.Open("mysql", url)
+		if err != nil {
+			panic("failed to connect database")
+		}
+		//mysql 连接池http://jinzhu.me/gorm/advanced.html#compose-primary-key
+		MaxIdleConns,_ := conf.Int("mysql","MaxIdleConns")
+		MaxOpenConns,_ := conf.Int("mysql","MaxOpenConns")
+		db.DB().SetMaxIdleConns(MaxIdleConns)
+		db.DB().SetMaxOpenConns(MaxOpenConns)
+		db.Debug()
+	}
+	if database == "sqlite" {
+		url := getSqliteUrl(conf)
+		db, err = gorm.Open("sqlite3", url)
+		if err != nil {
+			panic("failed to connect database")
+		}
+		db.Debug()
+	}
+
+	return
+}
+func createTable() {
+	DB = connectDB()
+	DB.AutoMigrate(&Products{})
+}
+
+func init() {
 	fmt.Println("go to model init")
 	createTable()
 }
