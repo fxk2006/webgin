@@ -1,0 +1,130 @@
+[New] 2017/10/25 15:15:14.001999 log.go:36: 初始化 Debug 日志成功
+[New] 2017/10/25 15:17:27.032090 log.go:36: 初始化 Debug 日志成功
+[Debug] 2017/10/25 15:18:17.471761 log.go:42: go to vv2 get
+[INFO] 2017/10/25 15:19:03.561080 log.go:48: yangyang
+[Debug] 2017/10/25 15:19:03.561104 log.go:42: go to v1 any
+[New] 2017/10/26 14:57:19.430674 log.go:36: 初始化 Debug 日志成功
+[Debug] 2017/10/26 14:57:41.681853 log.go:42: before middleware
+[Debug] 2017/10/26 14:57:41.681889 log.go:42: go to vv2 get
+[Debug] 2017/10/26 14:57:41.994828 log.go:42: before middleware
+[ Debug ]2017/10/26 15:20:53.563155 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/26 15:21:00.638957 init.go:13: hello middleWare
+[ Debug ]2017/10/26 15:21:22.406353 init.go:13: hello middleWare
+[ Debug ]2017/10/26 15:21:22.832981 init.go:13: hello middleWare
+[ Debug ]2017/10/26 15:21:23.105154 init.go:13: hello middleWare
+[ Debug ]2017/10/26 15:21:24.013917 init.go:13: hello middleWare
+[ Debug ]2017/10/26 15:21:25.084500 init.go:13: hello middleWare
+[ Debug ]2017/10/26 15:21:26.022969 init.go:13: hello middleWare
+[ Debug ]2017/10/26 15:36:39.247037 log.go:39: 初始化 Debug 日志成功
+[Warning] 2017/10/26 15:36:43.950013 g.go:9: hello middleware
+[Warning] 2017/10/26 15:36:43.950033 g.go:9: hello Products
+[Warning] 2017/10/26 15:36:43.950064 g.go:9: hello Products
+[Warning] 2017/10/26 15:36:43.950067 g.go:9: hello Products
+[ Debug ]2017/10/26 16:35:44.244069 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/26 16:37:25.881031 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/10/26 16:37:39.929367 init.go:13: hello middleware
+[Debug] 2017/10/26 16:37:39.929392 v1.go:19: hello Products
+[Debug] 2017/10/26 16:37:39.929431 v1.go:20: hello Products
+[Debug] 2017/10/26 16:37:39.929435 v1.go:21: hello Products
+[Debug] 2017/10/26 16:37:40.468617 init.go:13: hello middleware
+[Debug] 2017/10/26 16:37:40.468645 v1.go:19: hello Products
+[Debug] 2017/10/26 16:37:40.468649 v1.go:20: hello Products
+[Debug] 2017/10/26 16:37:40.468652 v1.go:21: hello Products
+[ Debug ]2017/10/26 16:39:08.728469 log.go:39: 初始化 Debug 日志成功
+[Warning] 2017/10/26 16:39:13.875542 init.go:13: hello middleware
+[Warning] 2017/10/26 16:39:13.875576 v1.go:19: hello Products
+[Warning] 2017/10/26 16:39:13.875605 v1.go:20: hello Products
+[Warning] 2017/10/26 16:39:13.875609 v1.go:21: hello Products
+[ Debug ]2017/10/26 16:42:04.655464 log.go:39: 初始化 Debug 日志成功
+[Warning] 2017/10/26 16:42:08.540684 init.go:13: hello middleware
+[Warning] 2017/10/26 16:42:08.540707 v1.go:19: hello Products
+[Warning] 2017/10/26 16:42:08.540747 v1.go:20: hello Products
+[Warning] 2017/10/26 16:42:08.540750 v1.go:21: hello Products
+[ Debug ]2017/10/26 16:49:03.153095 log.go:39: 初始化 Debug 日志成功
+[Warningss] 2017/10/26 16:49:10.576164 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:10.576206 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:49:10.576238 v1.go:20: hello Products2
+[Warningss] 2017/10/26 16:49:10.576242 v1.go:21: hello Products3
+[Warningss] 2017/10/26 16:49:47.344821 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:47.344856 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:49:47.344862 v1.go:20: hello Products2
+[Warningss] 2017/10/26 16:49:47.344876 v1.go:21: hello Products3
+[Warningss] 2017/10/26 16:49:47.646687 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:48.980948 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:48.980976 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:49:48.980980 v1.go:20: hello Products2
+[Warningss] 2017/10/26 16:49:48.980984 v1.go:21: hello Products3
+[Warningss] 2017/10/26 16:49:49.155821 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:50.419621 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:50.419654 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:49:50.419660 v1.go:20: hello Products2
+[Warningss] 2017/10/26 16:49:50.419664 v1.go:21: hello Products3
+[Warningss] 2017/10/26 16:49:54.526716 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:54.526769 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:49:54.526783 v1.go:20: hello Products2
+[Warningss] 2017/10/26 16:49:54.526786 v1.go:21: hello Products3
+[Warningss] 2017/10/26 16:49:55.245422 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:55.245457 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:49:55.245462 v1.go:20: hello Products2
+[Warningss] 2017/10/26 16:49:55.245464 v1.go:21: hello Products3
+[Warningss] 2017/10/26 16:49:55.882775 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:55.882801 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:49:55.882815 v1.go:20: hello Products2
+[Warningss] 2017/10/26 16:49:55.882818 v1.go:21: hello Products3
+[Warningss] 2017/10/26 16:49:56.519660 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:56.519688 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:49:56.519702 v1.go:20: hello Products2
+[Warningss] 2017/10/26 16:49:56.519705 v1.go:21: hello Products3
+[Warningss] 2017/10/26 16:49:57.119130 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:49:57.119161 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:49:57.119165 v1.go:20: hello Products2
+[Warningss] 2017/10/26 16:49:57.119168 v1.go:21: hello Products3
+[ Debug ]2017/10/26 16:51:12.985164 log.go:39: 初始化 Debug 日志成功
+[Warningss] 2017/10/26 16:51:16.379432 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:51:16.379462 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:51:16.379502 v1.go:20: hello Products2
+[Warningss] 2017/10/26 16:51:29.663128 init.go:13: hello middleware
+[Warningss] 2017/10/26 16:51:29.663160 v1.go:19: hello Products1
+[Warningss] 2017/10/26 16:51:29.663165 v1.go:20: hello Products2
+[ Debug ]2017/10/26 17:02:05.920302 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/26 17:02:09.329474 init.go:13: hello
+[ Debug ]2017/10/26 17:02:09.329502 v1.go:19: hello Products1
+[ Debug ]2017/10/26 17:02:09.329544 v1.go:20: hello Products2
+[ Debug ]2017/10/26 17:05:30.001126 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/10/26 17:05:33.294537 init.go:13: hello
+[Debug] 2017/10/26 17:05:33.294561 v1.go:19: hello Products1
+[INFO] 2017/10/26 17:05:33.294594 v1.go:20: hello Products2
+[Warningss] 2017/10/26 17:05:33.294910 init.go:16: hello world warinng
+[ Warning ]2017/10/26 17:06:23.175255 log.go:39: 初始化 Warning 日志成功
+[Debug] 2017/10/26 17:06:31.037728 init.go:13: hello
+[Debug] 2017/10/26 17:06:31.037753 v1.go:19: hello Products1
+[Debug] 2017/10/26 17:06:31.037795 v1.go:20: hello Products2
+[Warningss] 2017/10/26 17:06:31.038111 init.go:16: hello world warinng
+[ Warning ]2017/10/26 17:13:26.113727 log.go:40: 初始化 Warning 日志成功
+[Warning] 2017/10/26 17:13:35.094424 g.go:16: hello Products2
+[Warning] 2017/10/26 17:13:35.094815 g.go:16: hello world warinng
+[Warning] 2017/10/26 17:13:41.996002 g.go:16: hello Products2
+[Warning] 2017/10/26 17:13:41.996329 g.go:16: hello world warinng
+[Warning] 2017/10/26 17:13:42.388670 g.go:16: hello Products2
+[Warning] 2017/10/26 17:13:42.388966 g.go:16: hello world warinng
+[ Debug ]2017/10/26 17:14:52.939162 log.go:40: 初始化 Debug 日志成功
+[Debug] 2017/10/26 17:14:57.535245 g.go:10: hello
+[Debug] 2017/10/26 17:14:57.535296 g.go:10: hello Products1
+[INFO] 2017/10/26 17:14:57.535373 g.go:13: hello Products2
+[Warning] 2017/10/26 17:14:57.535377 g.go:16: hello Products2
+[Warning] 2017/10/26 17:14:57.535845 g.go:16: hello world warinng
+[Debug] 2017/10/26 17:14:58.065482 g.go:10: hello
+[Debug] 2017/10/26 17:14:58.065509 g.go:10: hello Products1
+[INFO] 2017/10/26 17:14:58.065514 g.go:13: hello Products2
+[Warning] 2017/10/26 17:14:58.065517 g.go:16: hello Products2
+[Warning] 2017/10/26 17:14:58.065798 g.go:16: hello world warinng
+[ Debug ]2017/10/26 17:17:57.252659 log.go:40: 初始化 Debug 日志成功
+[Debug] 2017/10/26 17:18:00.222560 init.go:13: hello
+[Debug] 2017/10/26 17:18:00.222588 v1.go:19: hello Products1
+[INFO] 2017/10/26 17:18:00.222631 v1.go:20: hello Products2
+[Warning] 2017/10/26 17:18:00.222635 v1.go:21: hello Products2
+[Warning] 2017/10/26 17:18:00.223028 init.go:16: hello world warinng
+[ Info ]2017/10/26 17:31:25.548902 log.go:40: 初始化 Info 日志成功
+[INFO] 2017/10/26 17:31:32.007589 v1.go:20: hello Products2
+[Warning] 2017/10/26 17:31:32.007645 v1.go:21: hello Products2
+[Warning] 2017/10/26 17:31:32.007982 init.go:16: hello world warinng

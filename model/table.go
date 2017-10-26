@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"github.com/robfig/config"
 	"log"
+	"webgin/global"
 )
 
 var DB *gorm.DB
 
-const name = "conf.ini"
 
 type Products struct {
 	Code  string
@@ -35,11 +35,8 @@ func getSqliteUrl(conf *config.Config) (url string) {
 	return
 }
 
-func connectDB() (db *gorm.DB) {
-	conf, err := config.ReadDefault(name)
-	if err != nil{
-		log.Fatalln(err)
-	}
+func connectDB(conf *config.Config) (db *gorm.DB) {
+
 	database, err := conf.String("database", "database")
 	if err != nil{
 		log.Fatalln(err)
@@ -69,7 +66,7 @@ func connectDB() (db *gorm.DB) {
 	return
 }
 func createTable() {
-	DB = connectDB()
+	DB = connectDB(global.Config)
 	DB.AutoMigrate(&Products{})
 }
 
