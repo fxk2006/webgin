@@ -128,3 +128,159 @@
 [INFO] 2017/10/26 17:31:32.007589 v1.go:20: hello Products2
 [Warning] 2017/10/26 17:31:32.007645 v1.go:21: hello Products2
 [Warning] 2017/10/26 17:31:32.007982 init.go:16: hello world warinng
+[ Info ]2017/10/31 12:47:36.953526 log.go:39: 初始化 Info 日志成功
+[Warning] 2017/10/31 12:47:59.591094 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:48:11.604726 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:48:15.455749 init.go:16: hello world warinng
+[ Info ]2017/10/31 12:51:10.199828 log.go:39: 初始化 Info 日志成功
+[Warning] 2017/10/31 12:51:16.267446 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:51:18.745846 init.go:16: hello world warinng
+[ Info ]2017/10/31 12:56:37.132518 log.go:39: 初始化 Info 日志成功
+[Warning] 2017/10/31 12:56:40.605733 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:56:47.743155 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:56:49.645441 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:56:52.072424 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:56:53.303302 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:56:54.565063 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:56:55.920368 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:56:57.109263 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:56:58.153080 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:56:59.296190 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:00.567425 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:01.633636 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:02.746031 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:03.809794 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:05.150737 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:06.405434 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:07.669457 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:08.765897 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:09.732913 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:21.408178 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:57:22.668800 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:58:11.155180 init.go:16: hello world warinng
+[Warning] 2017/10/31 12:58:24.251036 init.go:16: hello world warinng
+[ Info ]2017/10/31 13:07:10.385026 log.go:39: 初始化 Info 日志成功
+[Warning] 2017/10/31 13:07:19.678283 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:29.813810 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:32.462568 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:36.489373 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:37.986647 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:40.050264 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:49.050643 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:50.268036 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:51.491404 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:52.467629 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:53.286257 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:54.142973 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:55.019820 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:07:55.886621 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:34:02.756882 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:34:04.268510 init.go:16: hello world warinng
+[Warning] 2017/10/31 13:34:05.198043 init.go:16: hello world warinng
+[ Info ]2017/10/31 14:22:11.390812 log.go:39: 初始化 Info 日志成功
+[Warning] 2017/10/31 14:22:16.236674 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:22:17.941022 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:22:19.290938 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:22:20.044564 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:22:27.413255 init.go:16: hello world warinng
+[ Info ]2017/10/31 14:23:57.960142 log.go:39: 初始化 Info 日志成功
+[Warning] 2017/10/31 14:24:00.599102 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:24:03.727492 init.go:16: hello world warinng
+[ Info ]2017/10/31 14:26:57.637859 log.go:39: 初始化 Info 日志成功
+[Warning] 2017/10/31 14:27:03.649449 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:08.698787 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:10.426845 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:11.200187 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:11.856896 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:12.486351 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:13.091515 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:13.809759 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:14.439400 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:14.891759 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:15.073495 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:15.337285 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:15.537054 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:15.738699 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:15.945649 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:16.121197 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:16.617092 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:17.081079 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:17.393079 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:17.725990 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:18.097460 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:18.481130 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:18.888971 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:19.344830 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:20.927603 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:29.242095 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:30.001353 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:30.425840 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:30.747045 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:30.984802 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:31.201202 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:31.410079 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:31.648860 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:31.880863 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:32.144846 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:32.400760 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:32.673136 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:32.960818 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:33.241107 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:33.549260 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:33.929081 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:34.720875 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:35.400794 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:35.848843 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:36.160812 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:36.576806 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:36.929154 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:37.256709 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:37.528719 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:37.793024 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:38.048695 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:38.304737 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:38.521368 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:38.760766 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:39.001265 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:39.232760 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:39.464699 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:39.672942 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:39.904926 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:40.128692 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:40.312747 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:40.528769 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:42.513175 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:43.888707 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:50.000738 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:27:50.865893 init.go:16: hello world warinng
+[ Info ]2017/10/31 14:46:23.446970 log.go:39: 初始化 Info 日志成功
+[Warning] 2017/10/31 14:46:38.783770 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:46:49.652493 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:46:50.883656 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:46:52.260057 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:46:54.650409 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:46:55.638829 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:47:33.569861 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:47:37.485677 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:47:45.782806 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:47:48.610343 init.go:16: hello world warinng
+[Warning] 2017/10/31 14:48:59.376493 init.go:16: hello world warinng
+[ Info ]2017/10/31 16:02:44.575039 log.go:39: 初始化 Info 日志成功
+[Warning] 2017/10/31 16:03:00.786993 init.go:16: hello world warinng
+[ Debug ]2017/10/31 16:14:52.586841 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/10/31 16:14:58.291727 init.go:13: hello
+[Warning] 2017/10/31 16:14:58.291850 init.go:16: hello world warinng
+[Debug] 2017/10/31 16:14:58.291919 ssh.go:26: %s already start ... b2f99a11-167b-4dff-bcea-6cbfeb48b8a4
+[Debug] 2017/10/31 16:16:38.302561 ssh.go:37: %s already finish ... b2f99a11-167b-4dff-bcea-6cbfeb48b8a4
+[ Debug ]2017/10/31 17:28:15.211056 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 17:36:52.049614 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 17:36:58.969058 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 17:39:00.826442 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 18:11:51.150049 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 18:12:18.837380 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 18:13:44.764454 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 18:27:03.991472 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 18:28:03.055907 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 18:28:44.591046 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 21:41:44.416828 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/10/31 21:43:05.851419 log.go:39: 初始化 Debug 日志成功

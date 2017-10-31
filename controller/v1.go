@@ -1,58 +1,46 @@
 package controller
 
-import "github.com/gin-gonic/gin"
 import (
-	"webgin/model"
-	"strconv"
-	"net/http"
-	"webgin/global"
+	"webgin/tasks"
+	"github.com/satori/go.uuid"
+	"github.com/gin-gonic/gin"
+	"fmt"
 )
 
-
 func V1Index(c *gin.Context) {
-	var product []model.Products
-	model.DB.Find(&product)
-	c.JSON(200, product)
+	id := uuid.NewV4()
+	go tasks.LongTask(id)
+	c.JSON(200, gin.H{
+		"uuid": id,
+	})
 }
 
 func V2Index(c *gin.Context) {
-	global.GLog.Debug("hello Products1")
-	global.GLog.Info("hello Products2")
-	global.GLog.Warning("hello Products2")
-	var product []model.Products
-	model.DB.Find(&product)
-	c.HTML(http.StatusOK,"index.html",gin.H{
-		"title":"yangyang",
-		"name":[]string{"1","2"},
-	})
+	paramId := c.Param("uuid")
+	uuId, err := uuid.FromString(paramId)
+	if err != nil {
+		c.JSON(200, gin.H{
+			"result": err,
+		})
+	}
+	progress, ok := tasks.DBTasks[uuId]
+	if ok {
+		c.JSON(200, progress)
+	} else {
+		c.JSON(200, gin.H{
+			"result": fmt.Sprintf("%s not found", paramId),
+		})
+	}
 }
 
 func V1POST(c *gin.Context) {
-	code := c.DefaultQuery("code", "deft")
-	price := c.Query("price")
-	tmp,_ := strconv.Atoi(price)
-	p := uint(tmp)
-	model.DB.Create(&model.Products{
-		Code:code,
-		Price:p,
-	})
 	c.JSON(200, gin.H{
-		"ok":"ok",
+		"ok": "ok",
 	})
 }
 
 func V1Delete(c *gin.Context) {
-	id := c.Query("id")
-	if id != "" {
-		var product model.Products
-		model.DB.First(&product, id)
-		model.DB.Delete(&product)
-		c.JSON(201, gin.H{
-			"ok":"ppp",
-		})
-	}
-}
-func V1Any(c *gin.Context) {
-	name := c.Param("name")
-	c.String(200,name)
+	c.JSON(201, gin.H{
+		"ok": "ppp",
+	})
 }

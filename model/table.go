@@ -1,76 +1,78 @@
 package model
 
 import (
-	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/mysql"
-	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	"fmt"
-	"github.com/robfig/config"
-	"log"
 	"webgin/global"
+	"time"
+	"github.com/jinzhu/gorm"
 )
 
-var DB *gorm.DB
+const (
+	SSJ  = iota
+	KN
+	JR
+	XD
+	DSJ
+	YYXT
+)
 
+const (
+	Online  = iota
+	Offline
+)
 
-type Products struct {
-	Code  string
-	Price uint
+type Network struct {
+	ID      int    `gorm:"primary_key"`
+	Segment string `gorm:"type:varchar(255)"`
+	Remark  string `gorm:"type:text"`
 }
 
-
-func getMysqlUrl(conf *config.Config) (url string) {
-
-	user, _ := conf.String("mysql", "user")
-	host, _ := conf.String("mysql", "host")
-	password, _ := conf.String("mysql", "password")
-	database, _ := conf.String("mysql", "database")
-	url = fmt.Sprintf("%s:%s@tcp(%s:3306)/%s?charset=utf8&parseTime=True&loc=Local", user, password, host, database)
-	fmt.Println(url)
-	return
+type Asset struct {
+	ID            int64     `gorm:"primary_key"`
+	AssetLabel    string    `gorm:"type:varchar(100);column:asset_label"`
+	AssetNum      string    `gorm:"type:varchar(100);column:asset_num"`
+	AssetSN       string    `gorm:"type:varchar(100);column:asset_sn"`
+	Dept          string    `gorm:"type:varchar(255);column:dept"`
+	ExpiredTime   time.Time `gorm:"type:date;column:expired_time"`
+	OnlineTime    time.Time `gorm:"type:date;column:online_time"`
+	Status        byte      `gorm:"column:status"`
+	AssetType     string    `gorm:"type:varchar(255);column:asset_type"`
+	ServerVersion string    `gorm:"type:varchar(255);column:server_version"`
+	Config        string    `gorm:"type:text;column:config"`
+	Remark        string    `gorm:"type:text;column:remark"`
+	Idc           string    `gorm:"type:varchar(100);column:idc"`
+	Position      string    `gorm:"type:varchar(100);column:position"`
+	Hosts         []Host
+	CreatedAt     time.Time
+	UpdatedAt     time.Time
+}
+type Host struct {
+	ID       int64  `gorm:"primary_key"`
+	AssetID  int64  `gorm:"index"`
+	HostName string `gorm:"type:varchar(255)"`
+	IPs      []IP
 }
 
-func getSqliteUrl(conf *config.Config) (url string) {
-	url, _ = conf.String("sqlite", "database")
-	return
+type IP struct {
+	ID          int64  `gorm:"primary_key"`
+	HostID      int64  `gorm:"index"`
+	InnerIpaddr string `gorm:"type:varchar(255)"`
+	WlanIpaddr  string `gorm:"type:varchar(255)"`
+	IsVip       bool
 }
 
-func connectDB(conf *config.Config) (db *gorm.DB) {
-
-	database, err := conf.String("database", "database")
-	if err != nil{
-		log.Fatalln(err)
-	}
-	if database == "mysql" {
-		url := getMysqlUrl(conf)
-		db, err = gorm.Open("mysql", url)
-		if err != nil {
-			panic("failed to connect database")
-		}
-		//mysql 连接池http://jinzhu.me/gorm/advanced.html#compose-primary-key
-		MaxIdleConns,_ := conf.Int("mysql","MaxIdleConns")
-		MaxOpenConns,_ := conf.Int("mysql","MaxOpenConns")
-		db.DB().SetMaxIdleConns(MaxIdleConns)
-		db.DB().SetMaxOpenConns(MaxOpenConns)
-		db.Debug()
-	}
-	if database == "sqlite" {
-		url := getSqliteUrl(conf)
-		db, err = gorm.Open("sqlite3", url)
-		if err != nil {
-			panic("failed to connect database")
-		}
-		db.Debug()
-	}
-
-	return
-}
 func createTable() {
 	DB = connectDB(global.Config)
-	DB.AutoMigrate(&Products{})
+	DB.SingularTable(true)
+	//// 全局禁用表名复数
+	gorm.DefaultTableNameHandler = func(db *gorm.DB, defaultTableName string) string {
+		return "t_" + defaultTableName;
+	}
+	DB.Debug()
+	//更改默认表名
+	//http://gorm.book.jasperxu.com/models.html#md
+	DB.AutoMigrate(&Asset{}, &Host{}, &IP{}, &Network{})
 }
 
 func init() {
-	fmt.Println("go to model init")
 	createTable()
 }
