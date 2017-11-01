@@ -284,3 +284,231 @@
 [ Debug ]2017/10/31 18:28:44.591046 log.go:39: 初始化 Debug 日志成功
 [ Debug ]2017/10/31 21:41:44.416828 log.go:39: 初始化 Debug 日志成功
 [ Debug ]2017/10/31 21:43:05.851419 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/11/01 14:21:11.029330 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/11/01 14:22:59.278226 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/11/01 14:30:43.860401 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/11/01 14:31:04.974340 log.go:39: 初始化 Debug 日志成功
+[ Debug ]2017/11/01 15:13:50.132316 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 15:13:50.260962 table.go:87: master db init success!
+[Debug] 2017/11/01 15:14:10.893513 init.go:13: hello
+[Warning] 2017/11/01 15:14:10.893573 init.go:16: hello world warinng
+[Debug] 2017/11/01 15:14:24.290926 init.go:13: hello
+[Warning] 2017/11/01 15:14:24.291015 init.go:16: hello world warinng
+[ Debug ]2017/11/01 15:37:57.379823 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 15:37:57.492926 table.go:87: master db init success!
+[Debug] 2017/11/01 15:38:01.849344 init.go:14: hello
+[Debug] 2017/11/01 15:38:01.850383 v1.go:24: &{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}
+[Warning] 2017/11/01 15:38:01.850422 init.go:17: hello world warinng
+[ Debug ]2017/11/01 15:43:26.600608 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 15:43:26.701795 table.go:87: master db init success!
+[Debug] 2017/11/01 15:43:29.876564 init.go:14: hello
+[Warning] 2017/11/01 15:43:29.877821 init.go:17: hello world warinng
+[ Debug ]2017/11/01 15:46:41.740480 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 15:46:41.848827 table.go:87: master db init success!
+[Debug] 2017/11/01 15:46:44.073004 init.go:14: hello
+[Debug] 2017/11/01 15:46:44.074447 v1.go:24: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Warning] 2017/11/01 15:46:44.074979 init.go:17: hello world warinng
+[ Debug ]2017/11/01 16:08:43.421546 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 16:08:43.524264 table.go:87: master db init success!
+[Debug] 2017/11/01 16:08:46.525025 init.go:14: hello
+[Debug] 2017/11/01 16:08:46.526394 asset.go:30: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Warning] 2017/11/01 16:08:46.526880 init.go:17: hello world warinng
+[Debug] 2017/11/01 16:09:13.371622 init.go:14: hello
+[Debug] 2017/11/01 16:09:13.371681 asset.go:18: EOF
+[Debug] 2017/11/01 16:09:13.371717 asset.go:39: {0    0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0     [] {0 } 0 {0 } 0 {0 } 0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
+[Warning] 2017/11/01 16:09:13.371749 init.go:17: hello world warinng
+[Debug] 2017/11/01 16:10:46.156722 init.go:14: hello
+[Debug] 2017/11/01 16:10:46.156881 asset.go:39: {0    0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0     [] {0 } 0 {0 } 0 {0 } 0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
+[Warning] 2017/11/01 16:10:46.156914 init.go:17: hello world warinng
+[Debug] 2017/11/01 16:11:02.943652 init.go:14: hello
+[Debug] 2017/11/01 16:11:02.943837 asset.go:39: {0    0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0     [] {0 } 0 {0 } 0 {0 } 0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
+[Warning] 2017/11/01 16:11:02.943876 init.go:17: hello world warinng
+[Debug] 2017/11/01 16:13:07.895117 init.go:14: hello
+[Debug] 2017/11/01 16:13:07.896121 asset.go:30: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Warning] 2017/11/01 16:13:07.896200 init.go:17: hello world warinng
+[Debug] 2017/11/01 16:13:23.940281 init.go:14: hello
+[Debug] 2017/11/01 16:13:23.940426 asset.go:39: {0    0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0     [] {0 } 0 {0 } 0 {0 } 0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
+[Warning] 2017/11/01 16:13:23.940487 init.go:17: hello world warinng
+[ Debug ]2017/11/01 16:21:32.441939 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 16:21:32.549492 table.go:87: master db init success!
+[ Debug ]2017/11/01 16:21:37.634407 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 16:21:37.736642 table.go:87: master db init success!
+[Debug] 2017/11/01 16:21:50.890905 init.go:14: hello
+[Warning] 2017/11/01 16:21:50.891381 init.go:17: hello world warinng
+[Debug] 2017/11/01 16:21:59.550640 init.go:14: hello
+[Warning] 2017/11/01 16:21:59.550751 init.go:17: hello world warinng
+[Debug] 2017/11/01 16:22:03.352272 init.go:14: hello
+[Warning] 2017/11/01 16:22:03.352499 init.go:17: hello world warinng
+[ Debug ]2017/11/01 16:39:24.272604 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 16:39:24.376044 table.go:87: master db init success!
+[Debug] 2017/11/01 16:39:32.827604 init.go:14: hello
+[Debug] 2017/11/01 16:39:32.828516 asset.go:33: []
+[Warning] 2017/11/01 16:39:32.828728 init.go:17: hello world warinng
+[Debug] 2017/11/01 16:39:43.306591 init.go:14: hello
+[Warning] 2017/11/01 16:39:43.306869 init.go:17: hello world warinng
+[Debug] 2017/11/01 16:40:06.824979 init.go:14: hello
+[Warning] 2017/11/01 16:40:06.825105 init.go:17: hello world warinng
+[ Debug ]2017/11/01 17:29:46.504706 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 17:29:46.612984 table.go:86: master db init success!
+[ Debug ]2017/11/01 17:30:00.575966 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 17:30:00.698556 table.go:86: master db init success!
+[ Debug ]2017/11/01 17:30:20.123248 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 17:30:20.227800 table.go:86: master db init success!
+[Debug] 2017/11/01 17:30:31.499293 init.go:14: hello
+[Warning] 2017/11/01 17:30:31.499325 init.go:17: hello world warinng
+[Debug] 2017/11/01 17:30:36.061618 init.go:14: hello
+[Warning] 2017/11/01 17:30:36.061648 init.go:17: hello world warinng
+[Debug] 2017/11/01 17:30:38.828151 init.go:14: hello
+[Debug] 2017/11/01 17:30:38.829585 asset.go:33: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Warning] 2017/11/01 17:30:38.830246 init.go:17: hello world warinng
+[ Debug ]2017/11/01 17:41:43.047493 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 17:41:43.158620 table.go:106: master db init success!
+[ Debug ]2017/11/01 17:41:48.575475 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 17:41:48.682063 table.go:106: master db init success!
+[Debug] 2017/11/01 17:41:57.630736 init.go:14: hello
+[Debug] 2017/11/01 17:41:57.631913 asset.go:33: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Warning] 2017/11/01 17:41:57.632082 init.go:17: hello world warinng
+[ Debug ]2017/11/01 18:22:26.281780 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 18:22:26.387244 table.go:115: master db init success!
+[Debug] 2017/11/01 18:22:32.284569 init.go:14: hello
+[Debug] 2017/11/01 18:22:32.285605 asset.go:33: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Warning] 2017/11/01 18:22:32.285738 init.go:17: hello world warinng
+[ Debug ]2017/11/01 18:57:14.472689 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 18:57:14.577793 init.go:18: master db init success!
+[ Debug ]2017/11/01 18:57:20.653898 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 18:57:20.750395 init.go:18: master db init success!
+[Debug] 2017/11/01 18:57:55.077428 init.go:14: hello
+[Debug] 2017/11/01 18:57:55.077663 tasks.go:26: 2d4e1f09-a9a2-40a8-b2e7-86825f621844 already start ...
+[INFO] 2017/11/01 18:57:55.077750 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:09.229359 init.go:14: hello
+[INFO] 2017/11/01 18:58:09.229548 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:10.787932 init.go:14: hello
+[INFO] 2017/11/01 18:58:10.788009 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:15.309909 init.go:14: hello
+[INFO] 2017/11/01 18:58:15.310072 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:16.204190 init.go:14: hello
+[INFO] 2017/11/01 18:58:16.204333 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:17.383888 init.go:14: hello
+[INFO] 2017/11/01 18:58:17.384035 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:18.221569 init.go:14: hello
+[INFO] 2017/11/01 18:58:18.221700 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:18.957908 init.go:14: hello
+[INFO] 2017/11/01 18:58:18.957984 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:19.636555 init.go:14: hello
+[INFO] 2017/11/01 18:58:19.636627 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:20.188828 init.go:14: hello
+[INFO] 2017/11/01 18:58:20.188956 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:20.565717 init.go:14: hello
+[INFO] 2017/11/01 18:58:20.565849 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:20.802723 init.go:14: hello
+[INFO] 2017/11/01 18:58:20.802790 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:21.010736 init.go:14: hello
+[INFO] 2017/11/01 18:58:21.010787 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:21.260935 init.go:14: hello
+[INFO] 2017/11/01 18:58:21.261020 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:21.482760 init.go:14: hello
+[INFO] 2017/11/01 18:58:21.482827 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:21.706643 init.go:14: hello
+[INFO] 2017/11/01 18:58:21.706703 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:21.954804 init.go:14: hello
+[INFO] 2017/11/01 18:58:21.954852 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:22.178807 init.go:14: hello
+[INFO] 2017/11/01 18:58:22.178864 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:22.882955 init.go:14: hello
+[INFO] 2017/11/01 18:58:22.883031 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:23.338737 init.go:14: hello
+[INFO] 2017/11/01 18:58:23.338788 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:23.772034 init.go:14: hello
+[INFO] 2017/11/01 18:58:23.772109 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:24.219005 init.go:14: hello
+[INFO] 2017/11/01 18:58:24.219058 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:24.666813 init.go:14: hello
+[INFO] 2017/11/01 18:58:24.666862 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:25.076296 init.go:14: hello
+[INFO] 2017/11/01 18:58:25.076364 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:58:55.082907 init.go:14: hello
+[INFO] 2017/11/01 18:58:55.083046 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:59:35.088242 tasks.go:37: 2d4e1f09-a9a2-40a8-b2e7-86825f621844 %s already finish ...
+[Debug] 2017/11/01 18:59:47.301870 init.go:14: hello
+[INFO] 2017/11/01 18:59:47.302040 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:59:48.778136 init.go:14: hello
+[INFO] 2017/11/01 18:59:48.778242 init.go:17: zhongjian jian
+[Debug] 2017/11/01 18:59:49.595397 init.go:14: hello
+[INFO] 2017/11/01 18:59:49.595455 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:00:28.984623 init.go:14: hello
+[Debug] 2017/11/01 19:00:28.985853 asset.go:33: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:00:28.986038 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:00:34.252385 init.go:14: hello
+[Debug] 2017/11/01 19:00:34.253104 host.go:15: []
+[INFO] 2017/11/01 19:00:34.253212 init.go:17: zhongjian jian
+[ Debug ]2017/11/01 19:06:58.848189 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 19:06:58.948425 init.go:18: master db init success!
+[ Debug ]2017/11/01 19:07:06.672373 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 19:07:06.777134 init.go:18: master db init success!
+[ Debug ]2017/11/01 19:09:18.310193 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 19:09:18.420555 init.go:18: master db init success!
+[Debug] 2017/11/01 19:09:37.235079 init.go:14: hello
+[Debug] 2017/11/01 19:09:37.236056 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:09:37.236136 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:09:40.257958 init.go:14: hello
+[Debug] 2017/11/01 19:09:40.259276 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:09:40.259461 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:09:50.632309 init.go:14: hello
+[Debug] 2017/11/01 19:09:50.633594 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:09:50.633771 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:10:09.851159 init.go:14: hello
+[Debug] 2017/11/01 19:10:09.852110 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:10:09.852249 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:10:31.656470 init.go:14: hello
+[Debug] 2017/11/01 19:10:31.657685 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:10:31.657881 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:10:36.664712 init.go:14: hello
+[Debug] 2017/11/01 19:10:36.665570 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:10:36.665622 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:10:37.063820 init.go:14: hello
+[Debug] 2017/11/01 19:10:37.065199 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:10:37.065375 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:10:37.368745 init.go:14: hello
+[Debug] 2017/11/01 19:10:37.369790 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:10:37.369888 init.go:17: zhongjian jian
+[ Debug ]2017/11/01 19:17:13.136272 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 19:17:13.240445 init.go:18: master db init success!
+[Debug] 2017/11/01 19:17:16.486357 init.go:14: hello
+[Debug] 2017/11/01 19:17:16.487973 asset.go:47: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:17:16.488288 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:17:34.364500 init.go:14: hello
+[Debug] 2017/11/01 19:17:34.365700 asset.go:47: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:17:34.365836 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:17:44.589055 init.go:14: hello
+[Debug] 2017/11/01 19:17:44.590266 asset.go:47: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:17:44.590420 init.go:17: zhongjian jian
+[ Debug ]2017/11/01 19:19:40.508562 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 19:19:40.616006 init.go:18: master db init success!
+[Debug] 2017/11/01 19:19:43.930770 init.go:14: hello
+[INFO] 2017/11/01 19:19:43.931165 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:19:46.952473 init.go:14: hello
+[INFO] 2017/11/01 19:19:46.952645 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:19:55.772515 init.go:14: hello
+[INFO] 2017/11/01 19:19:55.785075 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:19:59.456956 init.go:14: hello
+[INFO] 2017/11/01 19:19:59.458681 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:20:12.641373 init.go:14: hello
+[INFO] 2017/11/01 19:20:12.641515 init.go:17: zhongjian jian
+[ Debug ]2017/11/01 19:22:02.804238 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/01 19:22:02.914954 init.go:18: master db init success!
+[Debug] 2017/11/01 19:22:11.751372 init.go:14: hello
+[Debug] 2017/11/01 19:22:11.752311 asset.go:51: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:22:11.752395 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:22:14.394103 init.go:14: hello
+[INFO] 2017/11/01 19:22:14.396110 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:22:17.031095 init.go:14: hello
+[INFO] 2017/11/01 19:22:17.032429 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:22:19.208987 init.go:14: hello
+[INFO] 2017/11/01 19:22:19.210615 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:22:20.625882 init.go:14: hello
+[INFO] 2017/11/01 19:22:20.626108 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:22:27.377133 init.go:14: hello
+[INFO] 2017/11/01 19:22:27.378770 init.go:17: zhongjian jian
+[Debug] 2017/11/01 19:22:30.015026 init.go:14: hello
+[Debug] 2017/11/01 19:22:30.015958 asset.go:51: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[INFO] 2017/11/01 19:22:30.016021 init.go:17: zhongjian jian

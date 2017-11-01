@@ -37,12 +37,3 @@ var getLogLevel = func(conf *config.Config) (byte) {
 }
 var GLog *util.Log = util.New(getLogLevel(Config), logName)
 
-/*var Debug = func(v ...interface{}) {
-	glog.Debug(v...)
-}
-var Info = func(v ...interface{}) {
-	glog.Info(v...)
-}
-var Warning = func(v ...interface{}) {
-	glog.Warning(v...)
-}*/

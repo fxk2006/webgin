@@ -9,7 +9,7 @@ import (
 	"log"
 )
 
-var DB *gorm.DB
+var MasterDB *gorm.DB
 
 func getMysqlUrl(conf *config.Config) (url string) {
 
