@@ -1,7 +1,6 @@
 package main
 
 import (
-	_ "webgin/model"
 	"webgin/views"
 	"webgin/model"
 )

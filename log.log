@@ -1,514 +1,721 @@
-[New] 2017/10/25 15:15:14.001999 log.go:36: 初始化 Debug 日志成功
-[New] 2017/10/25 15:17:27.032090 log.go:36: 初始化 Debug 日志成功
-[Debug] 2017/10/25 15:18:17.471761 log.go:42: go to vv2 get
-[INFO] 2017/10/25 15:19:03.561080 log.go:48: yangyang
-[Debug] 2017/10/25 15:19:03.561104 log.go:42: go to v1 any
-[New] 2017/10/26 14:57:19.430674 log.go:36: 初始化 Debug 日志成功
-[Debug] 2017/10/26 14:57:41.681853 log.go:42: before middleware
-[Debug] 2017/10/26 14:57:41.681889 log.go:42: go to vv2 get
-[Debug] 2017/10/26 14:57:41.994828 log.go:42: before middleware
-[ Debug ]2017/10/26 15:20:53.563155 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/26 15:21:00.638957 init.go:13: hello middleWare
-[ Debug ]2017/10/26 15:21:22.406353 init.go:13: hello middleWare
-[ Debug ]2017/10/26 15:21:22.832981 init.go:13: hello middleWare
-[ Debug ]2017/10/26 15:21:23.105154 init.go:13: hello middleWare
-[ Debug ]2017/10/26 15:21:24.013917 init.go:13: hello middleWare
-[ Debug ]2017/10/26 15:21:25.084500 init.go:13: hello middleWare
-[ Debug ]2017/10/26 15:21:26.022969 init.go:13: hello middleWare
-[ Debug ]2017/10/26 15:36:39.247037 log.go:39: 初始化 Debug 日志成功
-[Warning] 2017/10/26 15:36:43.950013 g.go:9: hello middleware
-[Warning] 2017/10/26 15:36:43.950033 g.go:9: hello Products
-[Warning] 2017/10/26 15:36:43.950064 g.go:9: hello Products
-[Warning] 2017/10/26 15:36:43.950067 g.go:9: hello Products
-[ Debug ]2017/10/26 16:35:44.244069 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/26 16:37:25.881031 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/10/26 16:37:39.929367 init.go:13: hello middleware
-[Debug] 2017/10/26 16:37:39.929392 v1.go:19: hello Products
-[Debug] 2017/10/26 16:37:39.929431 v1.go:20: hello Products
-[Debug] 2017/10/26 16:37:39.929435 v1.go:21: hello Products
-[Debug] 2017/10/26 16:37:40.468617 init.go:13: hello middleware
-[Debug] 2017/10/26 16:37:40.468645 v1.go:19: hello Products
-[Debug] 2017/10/26 16:37:40.468649 v1.go:20: hello Products
-[Debug] 2017/10/26 16:37:40.468652 v1.go:21: hello Products
-[ Debug ]2017/10/26 16:39:08.728469 log.go:39: 初始化 Debug 日志成功
-[Warning] 2017/10/26 16:39:13.875542 init.go:13: hello middleware
-[Warning] 2017/10/26 16:39:13.875576 v1.go:19: hello Products
-[Warning] 2017/10/26 16:39:13.875605 v1.go:20: hello Products
-[Warning] 2017/10/26 16:39:13.875609 v1.go:21: hello Products
-[ Debug ]2017/10/26 16:42:04.655464 log.go:39: 初始化 Debug 日志成功
-[Warning] 2017/10/26 16:42:08.540684 init.go:13: hello middleware
-[Warning] 2017/10/26 16:42:08.540707 v1.go:19: hello Products
-[Warning] 2017/10/26 16:42:08.540747 v1.go:20: hello Products
-[Warning] 2017/10/26 16:42:08.540750 v1.go:21: hello Products
-[ Debug ]2017/10/26 16:49:03.153095 log.go:39: 初始化 Debug 日志成功
-[Warningss] 2017/10/26 16:49:10.576164 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:10.576206 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:49:10.576238 v1.go:20: hello Products2
-[Warningss] 2017/10/26 16:49:10.576242 v1.go:21: hello Products3
-[Warningss] 2017/10/26 16:49:47.344821 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:47.344856 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:49:47.344862 v1.go:20: hello Products2
-[Warningss] 2017/10/26 16:49:47.344876 v1.go:21: hello Products3
-[Warningss] 2017/10/26 16:49:47.646687 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:48.980948 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:48.980976 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:49:48.980980 v1.go:20: hello Products2
-[Warningss] 2017/10/26 16:49:48.980984 v1.go:21: hello Products3
-[Warningss] 2017/10/26 16:49:49.155821 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:50.419621 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:50.419654 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:49:50.419660 v1.go:20: hello Products2
-[Warningss] 2017/10/26 16:49:50.419664 v1.go:21: hello Products3
-[Warningss] 2017/10/26 16:49:54.526716 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:54.526769 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:49:54.526783 v1.go:20: hello Products2
-[Warningss] 2017/10/26 16:49:54.526786 v1.go:21: hello Products3
-[Warningss] 2017/10/26 16:49:55.245422 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:55.245457 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:49:55.245462 v1.go:20: hello Products2
-[Warningss] 2017/10/26 16:49:55.245464 v1.go:21: hello Products3
-[Warningss] 2017/10/26 16:49:55.882775 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:55.882801 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:49:55.882815 v1.go:20: hello Products2
-[Warningss] 2017/10/26 16:49:55.882818 v1.go:21: hello Products3
-[Warningss] 2017/10/26 16:49:56.519660 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:56.519688 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:49:56.519702 v1.go:20: hello Products2
-[Warningss] 2017/10/26 16:49:56.519705 v1.go:21: hello Products3
-[Warningss] 2017/10/26 16:49:57.119130 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:49:57.119161 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:49:57.119165 v1.go:20: hello Products2
-[Warningss] 2017/10/26 16:49:57.119168 v1.go:21: hello Products3
-[ Debug ]2017/10/26 16:51:12.985164 log.go:39: 初始化 Debug 日志成功
-[Warningss] 2017/10/26 16:51:16.379432 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:51:16.379462 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:51:16.379502 v1.go:20: hello Products2
-[Warningss] 2017/10/26 16:51:29.663128 init.go:13: hello middleware
-[Warningss] 2017/10/26 16:51:29.663160 v1.go:19: hello Products1
-[Warningss] 2017/10/26 16:51:29.663165 v1.go:20: hello Products2
-[ Debug ]2017/10/26 17:02:05.920302 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/26 17:02:09.329474 init.go:13: hello
-[ Debug ]2017/10/26 17:02:09.329502 v1.go:19: hello Products1
-[ Debug ]2017/10/26 17:02:09.329544 v1.go:20: hello Products2
-[ Debug ]2017/10/26 17:05:30.001126 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/10/26 17:05:33.294537 init.go:13: hello
-[Debug] 2017/10/26 17:05:33.294561 v1.go:19: hello Products1
-[INFO] 2017/10/26 17:05:33.294594 v1.go:20: hello Products2
-[Warningss] 2017/10/26 17:05:33.294910 init.go:16: hello world warinng
-[ Warning ]2017/10/26 17:06:23.175255 log.go:39: 初始化 Warning 日志成功
-[Debug] 2017/10/26 17:06:31.037728 init.go:13: hello
-[Debug] 2017/10/26 17:06:31.037753 v1.go:19: hello Products1
-[Debug] 2017/10/26 17:06:31.037795 v1.go:20: hello Products2
-[Warningss] 2017/10/26 17:06:31.038111 init.go:16: hello world warinng
-[ Warning ]2017/10/26 17:13:26.113727 log.go:40: 初始化 Warning 日志成功
-[Warning] 2017/10/26 17:13:35.094424 g.go:16: hello Products2
-[Warning] 2017/10/26 17:13:35.094815 g.go:16: hello world warinng
-[Warning] 2017/10/26 17:13:41.996002 g.go:16: hello Products2
-[Warning] 2017/10/26 17:13:41.996329 g.go:16: hello world warinng
-[Warning] 2017/10/26 17:13:42.388670 g.go:16: hello Products2
-[Warning] 2017/10/26 17:13:42.388966 g.go:16: hello world warinng
-[ Debug ]2017/10/26 17:14:52.939162 log.go:40: 初始化 Debug 日志成功
-[Debug] 2017/10/26 17:14:57.535245 g.go:10: hello
-[Debug] 2017/10/26 17:14:57.535296 g.go:10: hello Products1
-[INFO] 2017/10/26 17:14:57.535373 g.go:13: hello Products2
-[Warning] 2017/10/26 17:14:57.535377 g.go:16: hello Products2
-[Warning] 2017/10/26 17:14:57.535845 g.go:16: hello world warinng
-[Debug] 2017/10/26 17:14:58.065482 g.go:10: hello
-[Debug] 2017/10/26 17:14:58.065509 g.go:10: hello Products1
-[INFO] 2017/10/26 17:14:58.065514 g.go:13: hello Products2
-[Warning] 2017/10/26 17:14:58.065517 g.go:16: hello Products2
-[Warning] 2017/10/26 17:14:58.065798 g.go:16: hello world warinng
-[ Debug ]2017/10/26 17:17:57.252659 log.go:40: 初始化 Debug 日志成功
-[Debug] 2017/10/26 17:18:00.222560 init.go:13: hello
-[Debug] 2017/10/26 17:18:00.222588 v1.go:19: hello Products1
-[INFO] 2017/10/26 17:18:00.222631 v1.go:20: hello Products2
-[Warning] 2017/10/26 17:18:00.222635 v1.go:21: hello Products2
-[Warning] 2017/10/26 17:18:00.223028 init.go:16: hello world warinng
-[ Info ]2017/10/26 17:31:25.548902 log.go:40: 初始化 Info 日志成功
-[INFO] 2017/10/26 17:31:32.007589 v1.go:20: hello Products2
-[Warning] 2017/10/26 17:31:32.007645 v1.go:21: hello Products2
-[Warning] 2017/10/26 17:31:32.007982 init.go:16: hello world warinng
-[ Info ]2017/10/31 12:47:36.953526 log.go:39: 初始化 Info 日志成功
-[Warning] 2017/10/31 12:47:59.591094 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:48:11.604726 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:48:15.455749 init.go:16: hello world warinng
-[ Info ]2017/10/31 12:51:10.199828 log.go:39: 初始化 Info 日志成功
-[Warning] 2017/10/31 12:51:16.267446 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:51:18.745846 init.go:16: hello world warinng
-[ Info ]2017/10/31 12:56:37.132518 log.go:39: 初始化 Info 日志成功
-[Warning] 2017/10/31 12:56:40.605733 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:56:47.743155 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:56:49.645441 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:56:52.072424 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:56:53.303302 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:56:54.565063 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:56:55.920368 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:56:57.109263 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:56:58.153080 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:56:59.296190 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:00.567425 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:01.633636 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:02.746031 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:03.809794 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:05.150737 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:06.405434 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:07.669457 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:08.765897 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:09.732913 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:21.408178 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:57:22.668800 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:58:11.155180 init.go:16: hello world warinng
-[Warning] 2017/10/31 12:58:24.251036 init.go:16: hello world warinng
-[ Info ]2017/10/31 13:07:10.385026 log.go:39: 初始化 Info 日志成功
-[Warning] 2017/10/31 13:07:19.678283 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:29.813810 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:32.462568 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:36.489373 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:37.986647 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:40.050264 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:49.050643 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:50.268036 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:51.491404 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:52.467629 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:53.286257 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:54.142973 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:55.019820 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:07:55.886621 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:34:02.756882 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:34:04.268510 init.go:16: hello world warinng
-[Warning] 2017/10/31 13:34:05.198043 init.go:16: hello world warinng
-[ Info ]2017/10/31 14:22:11.390812 log.go:39: 初始化 Info 日志成功
-[Warning] 2017/10/31 14:22:16.236674 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:22:17.941022 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:22:19.290938 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:22:20.044564 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:22:27.413255 init.go:16: hello world warinng
-[ Info ]2017/10/31 14:23:57.960142 log.go:39: 初始化 Info 日志成功
-[Warning] 2017/10/31 14:24:00.599102 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:24:03.727492 init.go:16: hello world warinng
-[ Info ]2017/10/31 14:26:57.637859 log.go:39: 初始化 Info 日志成功
-[Warning] 2017/10/31 14:27:03.649449 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:08.698787 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:10.426845 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:11.200187 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:11.856896 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:12.486351 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:13.091515 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:13.809759 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:14.439400 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:14.891759 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:15.073495 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:15.337285 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:15.537054 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:15.738699 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:15.945649 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:16.121197 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:16.617092 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:17.081079 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:17.393079 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:17.725990 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:18.097460 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:18.481130 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:18.888971 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:19.344830 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:20.927603 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:29.242095 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:30.001353 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:30.425840 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:30.747045 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:30.984802 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:31.201202 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:31.410079 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:31.648860 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:31.880863 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:32.144846 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:32.400760 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:32.673136 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:32.960818 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:33.241107 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:33.549260 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:33.929081 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:34.720875 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:35.400794 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:35.848843 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:36.160812 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:36.576806 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:36.929154 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:37.256709 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:37.528719 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:37.793024 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:38.048695 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:38.304737 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:38.521368 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:38.760766 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:39.001265 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:39.232760 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:39.464699 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:39.672942 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:39.904926 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:40.128692 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:40.312747 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:40.528769 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:42.513175 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:43.888707 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:50.000738 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:27:50.865893 init.go:16: hello world warinng
-[ Info ]2017/10/31 14:46:23.446970 log.go:39: 初始化 Info 日志成功
-[Warning] 2017/10/31 14:46:38.783770 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:46:49.652493 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:46:50.883656 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:46:52.260057 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:46:54.650409 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:46:55.638829 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:47:33.569861 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:47:37.485677 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:47:45.782806 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:47:48.610343 init.go:16: hello world warinng
-[Warning] 2017/10/31 14:48:59.376493 init.go:16: hello world warinng
-[ Info ]2017/10/31 16:02:44.575039 log.go:39: 初始化 Info 日志成功
-[Warning] 2017/10/31 16:03:00.786993 init.go:16: hello world warinng
-[ Debug ]2017/10/31 16:14:52.586841 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/10/31 16:14:58.291727 init.go:13: hello
-[Warning] 2017/10/31 16:14:58.291850 init.go:16: hello world warinng
-[Debug] 2017/10/31 16:14:58.291919 ssh.go:26: %s already start ... b2f99a11-167b-4dff-bcea-6cbfeb48b8a4
-[Debug] 2017/10/31 16:16:38.302561 ssh.go:37: %s already finish ... b2f99a11-167b-4dff-bcea-6cbfeb48b8a4
-[ Debug ]2017/10/31 17:28:15.211056 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 17:36:52.049614 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 17:36:58.969058 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 17:39:00.826442 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 18:11:51.150049 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 18:12:18.837380 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 18:13:44.764454 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 18:27:03.991472 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 18:28:03.055907 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 18:28:44.591046 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 21:41:44.416828 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/10/31 21:43:05.851419 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/11/01 14:21:11.029330 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/11/01 14:22:59.278226 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/11/01 14:30:43.860401 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/11/01 14:31:04.974340 log.go:39: 初始化 Debug 日志成功
-[ Debug ]2017/11/01 15:13:50.132316 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 15:13:50.260962 table.go:87: master db init success!
-[Debug] 2017/11/01 15:14:10.893513 init.go:13: hello
-[Warning] 2017/11/01 15:14:10.893573 init.go:16: hello world warinng
-[Debug] 2017/11/01 15:14:24.290926 init.go:13: hello
-[Warning] 2017/11/01 15:14:24.291015 init.go:16: hello world warinng
-[ Debug ]2017/11/01 15:37:57.379823 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 15:37:57.492926 table.go:87: master db init success!
-[Debug] 2017/11/01 15:38:01.849344 init.go:14: hello
-[Debug] 2017/11/01 15:38:01.850383 v1.go:24: &{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}
-[Warning] 2017/11/01 15:38:01.850422 init.go:17: hello world warinng
-[ Debug ]2017/11/01 15:43:26.600608 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 15:43:26.701795 table.go:87: master db init success!
-[Debug] 2017/11/01 15:43:29.876564 init.go:14: hello
-[Warning] 2017/11/01 15:43:29.877821 init.go:17: hello world warinng
-[ Debug ]2017/11/01 15:46:41.740480 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 15:46:41.848827 table.go:87: master db init success!
-[Debug] 2017/11/01 15:46:44.073004 init.go:14: hello
-[Debug] 2017/11/01 15:46:44.074447 v1.go:24: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[Warning] 2017/11/01 15:46:44.074979 init.go:17: hello world warinng
-[ Debug ]2017/11/01 16:08:43.421546 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 16:08:43.524264 table.go:87: master db init success!
-[Debug] 2017/11/01 16:08:46.525025 init.go:14: hello
-[Debug] 2017/11/01 16:08:46.526394 asset.go:30: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[Warning] 2017/11/01 16:08:46.526880 init.go:17: hello world warinng
-[Debug] 2017/11/01 16:09:13.371622 init.go:14: hello
-[Debug] 2017/11/01 16:09:13.371681 asset.go:18: EOF
-[Debug] 2017/11/01 16:09:13.371717 asset.go:39: {0    0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0     [] {0 } 0 {0 } 0 {0 } 0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
-[Warning] 2017/11/01 16:09:13.371749 init.go:17: hello world warinng
-[Debug] 2017/11/01 16:10:46.156722 init.go:14: hello
-[Debug] 2017/11/01 16:10:46.156881 asset.go:39: {0    0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0     [] {0 } 0 {0 } 0 {0 } 0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
-[Warning] 2017/11/01 16:10:46.156914 init.go:17: hello world warinng
-[Debug] 2017/11/01 16:11:02.943652 init.go:14: hello
-[Debug] 2017/11/01 16:11:02.943837 asset.go:39: {0    0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0     [] {0 } 0 {0 } 0 {0 } 0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
-[Warning] 2017/11/01 16:11:02.943876 init.go:17: hello world warinng
-[Debug] 2017/11/01 16:13:07.895117 init.go:14: hello
-[Debug] 2017/11/01 16:13:07.896121 asset.go:30: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[Warning] 2017/11/01 16:13:07.896200 init.go:17: hello world warinng
-[Debug] 2017/11/01 16:13:23.940281 init.go:14: hello
-[Debug] 2017/11/01 16:13:23.940426 asset.go:39: {0    0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC 0     [] {0 } 0 {0 } 0 {0 } 0 0001-01-01 00:00:00 +0000 UTC 0001-01-01 00:00:00 +0000 UTC}
-[Warning] 2017/11/01 16:13:23.940487 init.go:17: hello world warinng
-[ Debug ]2017/11/01 16:21:32.441939 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 16:21:32.549492 table.go:87: master db init success!
-[ Debug ]2017/11/01 16:21:37.634407 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 16:21:37.736642 table.go:87: master db init success!
-[Debug] 2017/11/01 16:21:50.890905 init.go:14: hello
-[Warning] 2017/11/01 16:21:50.891381 init.go:17: hello world warinng
-[Debug] 2017/11/01 16:21:59.550640 init.go:14: hello
-[Warning] 2017/11/01 16:21:59.550751 init.go:17: hello world warinng
-[Debug] 2017/11/01 16:22:03.352272 init.go:14: hello
-[Warning] 2017/11/01 16:22:03.352499 init.go:17: hello world warinng
-[ Debug ]2017/11/01 16:39:24.272604 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 16:39:24.376044 table.go:87: master db init success!
-[Debug] 2017/11/01 16:39:32.827604 init.go:14: hello
-[Debug] 2017/11/01 16:39:32.828516 asset.go:33: []
-[Warning] 2017/11/01 16:39:32.828728 init.go:17: hello world warinng
-[Debug] 2017/11/01 16:39:43.306591 init.go:14: hello
-[Warning] 2017/11/01 16:39:43.306869 init.go:17: hello world warinng
-[Debug] 2017/11/01 16:40:06.824979 init.go:14: hello
-[Warning] 2017/11/01 16:40:06.825105 init.go:17: hello world warinng
-[ Debug ]2017/11/01 17:29:46.504706 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 17:29:46.612984 table.go:86: master db init success!
-[ Debug ]2017/11/01 17:30:00.575966 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 17:30:00.698556 table.go:86: master db init success!
-[ Debug ]2017/11/01 17:30:20.123248 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 17:30:20.227800 table.go:86: master db init success!
-[Debug] 2017/11/01 17:30:31.499293 init.go:14: hello
-[Warning] 2017/11/01 17:30:31.499325 init.go:17: hello world warinng
-[Debug] 2017/11/01 17:30:36.061618 init.go:14: hello
-[Warning] 2017/11/01 17:30:36.061648 init.go:17: hello world warinng
-[Debug] 2017/11/01 17:30:38.828151 init.go:14: hello
-[Debug] 2017/11/01 17:30:38.829585 asset.go:33: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[Warning] 2017/11/01 17:30:38.830246 init.go:17: hello world warinng
-[ Debug ]2017/11/01 17:41:43.047493 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 17:41:43.158620 table.go:106: master db init success!
-[ Debug ]2017/11/01 17:41:48.575475 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 17:41:48.682063 table.go:106: master db init success!
-[Debug] 2017/11/01 17:41:57.630736 init.go:14: hello
-[Debug] 2017/11/01 17:41:57.631913 asset.go:33: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[Warning] 2017/11/01 17:41:57.632082 init.go:17: hello world warinng
-[ Debug ]2017/11/01 18:22:26.281780 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 18:22:26.387244 table.go:115: master db init success!
-[Debug] 2017/11/01 18:22:32.284569 init.go:14: hello
-[Debug] 2017/11/01 18:22:32.285605 asset.go:33: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[Warning] 2017/11/01 18:22:32.285738 init.go:17: hello world warinng
-[ Debug ]2017/11/01 18:57:14.472689 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 18:57:14.577793 init.go:18: master db init success!
-[ Debug ]2017/11/01 18:57:20.653898 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 18:57:20.750395 init.go:18: master db init success!
-[Debug] 2017/11/01 18:57:55.077428 init.go:14: hello
-[Debug] 2017/11/01 18:57:55.077663 tasks.go:26: 2d4e1f09-a9a2-40a8-b2e7-86825f621844 already start ...
-[INFO] 2017/11/01 18:57:55.077750 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:09.229359 init.go:14: hello
-[INFO] 2017/11/01 18:58:09.229548 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:10.787932 init.go:14: hello
-[INFO] 2017/11/01 18:58:10.788009 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:15.309909 init.go:14: hello
-[INFO] 2017/11/01 18:58:15.310072 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:16.204190 init.go:14: hello
-[INFO] 2017/11/01 18:58:16.204333 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:17.383888 init.go:14: hello
-[INFO] 2017/11/01 18:58:17.384035 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:18.221569 init.go:14: hello
-[INFO] 2017/11/01 18:58:18.221700 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:18.957908 init.go:14: hello
-[INFO] 2017/11/01 18:58:18.957984 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:19.636555 init.go:14: hello
-[INFO] 2017/11/01 18:58:19.636627 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:20.188828 init.go:14: hello
-[INFO] 2017/11/01 18:58:20.188956 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:20.565717 init.go:14: hello
-[INFO] 2017/11/01 18:58:20.565849 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:20.802723 init.go:14: hello
-[INFO] 2017/11/01 18:58:20.802790 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:21.010736 init.go:14: hello
-[INFO] 2017/11/01 18:58:21.010787 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:21.260935 init.go:14: hello
-[INFO] 2017/11/01 18:58:21.261020 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:21.482760 init.go:14: hello
-[INFO] 2017/11/01 18:58:21.482827 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:21.706643 init.go:14: hello
-[INFO] 2017/11/01 18:58:21.706703 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:21.954804 init.go:14: hello
-[INFO] 2017/11/01 18:58:21.954852 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:22.178807 init.go:14: hello
-[INFO] 2017/11/01 18:58:22.178864 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:22.882955 init.go:14: hello
-[INFO] 2017/11/01 18:58:22.883031 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:23.338737 init.go:14: hello
-[INFO] 2017/11/01 18:58:23.338788 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:23.772034 init.go:14: hello
-[INFO] 2017/11/01 18:58:23.772109 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:24.219005 init.go:14: hello
-[INFO] 2017/11/01 18:58:24.219058 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:24.666813 init.go:14: hello
-[INFO] 2017/11/01 18:58:24.666862 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:25.076296 init.go:14: hello
-[INFO] 2017/11/01 18:58:25.076364 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:58:55.082907 init.go:14: hello
-[INFO] 2017/11/01 18:58:55.083046 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:59:35.088242 tasks.go:37: 2d4e1f09-a9a2-40a8-b2e7-86825f621844 %s already finish ...
-[Debug] 2017/11/01 18:59:47.301870 init.go:14: hello
-[INFO] 2017/11/01 18:59:47.302040 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:59:48.778136 init.go:14: hello
-[INFO] 2017/11/01 18:59:48.778242 init.go:17: zhongjian jian
-[Debug] 2017/11/01 18:59:49.595397 init.go:14: hello
-[INFO] 2017/11/01 18:59:49.595455 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:00:28.984623 init.go:14: hello
-[Debug] 2017/11/01 19:00:28.985853 asset.go:33: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:00:28.986038 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:00:34.252385 init.go:14: hello
-[Debug] 2017/11/01 19:00:34.253104 host.go:15: []
-[INFO] 2017/11/01 19:00:34.253212 init.go:17: zhongjian jian
-[ Debug ]2017/11/01 19:06:58.848189 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 19:06:58.948425 init.go:18: master db init success!
-[ Debug ]2017/11/01 19:07:06.672373 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 19:07:06.777134 init.go:18: master db init success!
-[ Debug ]2017/11/01 19:09:18.310193 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 19:09:18.420555 init.go:18: master db init success!
-[Debug] 2017/11/01 19:09:37.235079 init.go:14: hello
-[Debug] 2017/11/01 19:09:37.236056 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:09:37.236136 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:09:40.257958 init.go:14: hello
-[Debug] 2017/11/01 19:09:40.259276 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:09:40.259461 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:09:50.632309 init.go:14: hello
-[Debug] 2017/11/01 19:09:50.633594 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:09:50.633771 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:10:09.851159 init.go:14: hello
-[Debug] 2017/11/01 19:10:09.852110 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:10:09.852249 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:10:31.656470 init.go:14: hello
-[Debug] 2017/11/01 19:10:31.657685 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:10:31.657881 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:10:36.664712 init.go:14: hello
-[Debug] 2017/11/01 19:10:36.665570 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:10:36.665622 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:10:37.063820 init.go:14: hello
-[Debug] 2017/11/01 19:10:37.065199 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:10:37.065375 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:10:37.368745 init.go:14: hello
-[Debug] 2017/11/01 19:10:37.369790 asset.go:35: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:10:37.369888 init.go:17: zhongjian jian
-[ Debug ]2017/11/01 19:17:13.136272 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 19:17:13.240445 init.go:18: master db init success!
-[Debug] 2017/11/01 19:17:16.486357 init.go:14: hello
-[Debug] 2017/11/01 19:17:16.487973 asset.go:47: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:17:16.488288 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:17:34.364500 init.go:14: hello
-[Debug] 2017/11/01 19:17:34.365700 asset.go:47: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:17:34.365836 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:17:44.589055 init.go:14: hello
-[Debug] 2017/11/01 19:17:44.590266 asset.go:47: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:17:44.590420 init.go:17: zhongjian jian
-[ Debug ]2017/11/01 19:19:40.508562 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 19:19:40.616006 init.go:18: master db init success!
-[Debug] 2017/11/01 19:19:43.930770 init.go:14: hello
-[INFO] 2017/11/01 19:19:43.931165 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:19:46.952473 init.go:14: hello
-[INFO] 2017/11/01 19:19:46.952645 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:19:55.772515 init.go:14: hello
-[INFO] 2017/11/01 19:19:55.785075 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:19:59.456956 init.go:14: hello
-[INFO] 2017/11/01 19:19:59.458681 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:20:12.641373 init.go:14: hello
-[INFO] 2017/11/01 19:20:12.641515 init.go:17: zhongjian jian
-[ Debug ]2017/11/01 19:22:02.804238 log.go:39: 初始化 Debug 日志成功
-[Debug] 2017/11/01 19:22:02.914954 init.go:18: master db init success!
-[Debug] 2017/11/01 19:22:11.751372 init.go:14: hello
-[Debug] 2017/11/01 19:22:11.752311 asset.go:51: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:22:11.752395 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:22:14.394103 init.go:14: hello
-[INFO] 2017/11/01 19:22:14.396110 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:22:17.031095 init.go:14: hello
-[INFO] 2017/11/01 19:22:17.032429 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:22:19.208987 init.go:14: hello
-[INFO] 2017/11/01 19:22:19.210615 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:22:20.625882 init.go:14: hello
-[INFO] 2017/11/01 19:22:20.626108 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:22:27.377133 init.go:14: hello
-[INFO] 2017/11/01 19:22:27.378770 init.go:17: zhongjian jian
-[Debug] 2017/11/01 19:22:30.015026 init.go:14: hello
-[Debug] 2017/11/01 19:22:30.015958 asset.go:51: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
-[INFO] 2017/11/01 19:22:30.016021 init.go:17: zhongjian jian
+[Debug]2017/11/02 16:08:42.912016 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 16:08:43.016241 init.go:18: master db init success
+[Debug] 2017/11/02 16:08:43.016272 init.go:20: set master db logmode true
+[Debug] 2017/11/02 16:08:46.781751 init.go:14: 客户端ip地址 127.0.0.1 请求URL /cmdb/asset
+[INFO] 2017/11/02 16:08:46.781782 init.go:17: 请求前
+[Debug] 2017/11/02 16:08:46.782809 asset.go:52: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Debug]2017/11/02 16:11:50.886371 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 16:11:50.981627 init.go:18: master db init success
+[Debug] 2017/11/02 16:11:50.981652 init.go:20: set master db logmode true
+[Debug] 2017/11/02 16:11:56.469483 init.go:14: 客户端ip地址 127.0.0.1 请求URL /cmdb/asset
+[INFO] 2017/11/02 16:11:56.469504 init.go:17: 请求前
+[Debug] 2017/11/02 16:11:56.469509 init.go:22: 客户端ip地址 127.0.0.1 请求URL /cmdb/asset
+[INFO] 2017/11/02 16:11:56.469513 init.go:23: 请求后
+[Debug] 2017/11/02 16:11:56.470490 asset.go:52: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Debug]2017/11/02 16:13:34.644739 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 16:13:34.748906 init.go:18: master db init success
+[Debug] 2017/11/02 16:13:34.748931 init.go:20: set master db logmode true
+[Debug]2017/11/02 16:13:46.420129 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 16:13:46.522420 init.go:18: master db init success
+[Debug] 2017/11/02 16:13:46.522445 init.go:20: set master db logmode true
+[Debug] 2017/11/02 16:13:53.124694 init.go:14: 客户端ip地址 127.0.0.1 请求URL /cmdb/asset
+[INFO] 2017/11/02 16:13:53.124723 init.go:17: 请求前
+[Debug] 2017/11/02 16:13:53.125791 asset.go:52: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Debug]2017/11/02 16:18:02.788047 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 16:18:02.889995 init.go:18: master db init success
+[Debug] 2017/11/02 16:18:02.890017 init.go:20: set master db logmode true
+[Debug] 2017/11/02 16:18:13.018170 init.go:14: 客户端ip地址 127.0.0.1 请求URL /cmdb/asset
+[INFO] 2017/11/02 16:18:13.018202 init.go:17: 请求前
+[Debug] 2017/11/02 16:18:13.019209 asset.go:52: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Debug] 2017/11/02 16:18:13.019300 init.go:22: 客户端ip地址 127.0.0.1 请求URL /cmdb/asset
+[INFO] 2017/11/02 16:18:13.019307 init.go:23: 请求后
+[Debug]2017/11/02 16:36:13.989464 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 16:36:14.092321 init.go:18: master db init success
+[Debug] 2017/11/02 16:36:14.092343 init.go:20: set master db logmode true
+[Debug] 2017/11/02 16:36:26.487146 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 16:36:26.487169 init.go:17: 请求前
+[Debug] 2017/11/02 16:36:26.487277 tasks.go:36: 82dd7f48-6b2f-498a-bef1-c4d2218c6b10 already start ...
+[Debug] 2017/11/02 16:36:26.536900 tasks.go:31: 执行命令 ls
+[Debug]2017/11/02 16:37:38.506472 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 16:37:38.607273 init.go:18: master db init success
+[Debug] 2017/11/02 16:37:38.607299 init.go:20: set master db logmode true
+[Debug] 2017/11/02 16:37:43.644124 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 16:37:43.644146 init.go:17: 请求前
+[Debug] 2017/11/02 16:37:43.644238 tasks.go:36: 824f8033-6d34-4355-9e6e-26091bb91834 already start ...
+[Debug] 2017/11/02 16:37:43.645941 tasks.go:31: 执行命令 ls 结果 app
+app.go
+conf.ini
+controller
+db.sqlite
+global
+log.log
+model
+opsadmin.sql
+tasks
+templates
+test.go
+util
+views
+
+[Debug] 2017/11/02 16:38:26.748123 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/824f8033-6d34-4355-9e6e-26091bb91834
+[INFO] 2017/11/02 16:38:26.748157 init.go:17: 请求前
+[Debug] 2017/11/02 16:38:32.509361 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/824f8033-6d34-4355-9e6e-26091bb91834
+[INFO] 2017/11/02 16:38:32.509392 init.go:17: 请求前
+[Debug] 2017/11/02 16:38:41.349197 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/824f8033-6d34-4355-9e6e-26091bb91834
+[INFO] 2017/11/02 16:38:41.349228 init.go:17: 请求前
+[Debug] 2017/11/02 16:38:42.558119 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/824f8033-6d34-4355-9e6e-26091bb91834
+[INFO] 2017/11/02 16:38:42.558153 init.go:17: 请求前
+[Debug] 2017/11/02 16:38:43.493840 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/824f8033-6d34-4355-9e6e-26091bb91834
+[INFO] 2017/11/02 16:38:43.493864 init.go:17: 请求前
+[Debug] 2017/11/02 16:38:44.368478 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/824f8033-6d34-4355-9e6e-26091bb91834
+[INFO] 2017/11/02 16:38:44.368507 init.go:17: 请求前
+[Debug] 2017/11/02 16:38:44.989759 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/824f8033-6d34-4355-9e6e-26091bb91834
+[INFO] 2017/11/02 16:38:44.989789 init.go:17: 请求前
+[Debug] 2017/11/02 16:38:45.513472 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/824f8033-6d34-4355-9e6e-26091bb91834
+[INFO] 2017/11/02 16:38:45.513523 init.go:17: 请求前
+[Debug] 2017/11/02 16:38:45.981869 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/824f8033-6d34-4355-9e6e-26091bb91834
+[INFO] 2017/11/02 16:38:45.981897 init.go:17: 请求前
+[Debug] 2017/11/02 16:38:46.692502 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/824f8033-6d34-4355-9e6e-26091bb91834
+[INFO] 2017/11/02 16:38:46.692523 init.go:17: 请求前
+[Debug] 2017/11/02 16:39:23.656393 tasks.go:48: 824f8033-6d34-4355-9e6e-26091bb91834 %s already finish ...
+[Debug]2017/11/02 16:49:47.021101 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 16:49:47.123326 init.go:18: master db init success
+[Debug] 2017/11/02 16:49:47.123347 init.go:20: set master db logmode true
+[Debug] 2017/11/02 16:49:52.181902 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 16:49:52.181964 init.go:17: 请求前
+[Debug] 2017/11/02 16:49:52.182130 tasks.go:40: 5d2ceed6-b039-4d66-a26b-4c0d0416fa92 already start ...
+[Debug] 2017/11/02 16:50:02.865546 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/5d2ceed6-b039-4d66-a26b-4c0d0416fa92
+[INFO] 2017/11/02 16:50:02.865566 init.go:17: 请求前
+[Debug] 2017/11/02 16:50:04.937399 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 16:50:04.937447 init.go:17: 请求前
+[Debug] 2017/11/02 16:50:04.937711 tasks.go:40: 230a341f-a3b7-4a55-af53-fe4f75b4f80b already start ...
+[Debug] 2017/11/02 16:50:06.417370 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 16:50:06.417389 init.go:17: 请求前
+[Debug] 2017/11/02 16:50:06.417500 tasks.go:40: 72b3738c-345f-4dd2-980c-68d9a42abb2a already start ...
+[Debug] 2017/11/02 16:50:19.521691 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/72b3738c-345f-4dd2-980c-68d9a42abb2a
+[INFO] 2017/11/02 16:50:19.521733 init.go:17: 请求前
+[Debug] 2017/11/02 16:50:23.690873 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/72b3738c-345f-4dd2-980c-68d9a42abb2a
+[INFO] 2017/11/02 16:50:23.690895 init.go:17: 请求前
+[Debug] 2017/11/02 16:50:24.827145 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/72b3738c-345f-4dd2-980c-68d9a42abb2a
+[INFO] 2017/11/02 16:50:24.827167 init.go:17: 请求前
+[Debug]2017/11/02 16:51:16.371587 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 16:51:16.467953 init.go:18: master db init success
+[Debug] 2017/11/02 16:51:16.467985 init.go:20: set master db logmode true
+[Debug] 2017/11/02 16:51:23.961857 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 16:51:23.961880 init.go:17: 请求前
+[Debug] 2017/11/02 16:51:23.961985 tasks.go:40: 089c033d-5b9a-4af0-ad51-f320bde83568 already start ...
+[Debug] 2017/11/02 16:51:30.354674 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/089c033d-5b9a-4af0-ad51-f320bde83568
+[INFO] 2017/11/02 16:51:30.354715 init.go:17: 请求前
+[Debug] 2017/11/02 16:51:31.818248 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/089c033d-5b9a-4af0-ad51-f320bde83568
+[INFO] 2017/11/02 16:51:31.818278 init.go:17: 请求前
+[Debug]2017/11/02 16:52:20.947081 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 16:52:21.050906 init.go:18: master db init success
+[Debug] 2017/11/02 16:52:21.050928 init.go:20: set master db logmode true
+[Debug] 2017/11/02 16:52:23.329652 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 16:52:23.329683 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:23.329795 tasks.go:40: 7bf47a7a-fb03-4b60-a57d-143917cebc4e already start ...
+[Debug] 2017/11/02 16:52:28.961761 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:28.961791 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:29.976972 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:29.976994 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:31.008894 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:31.008916 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:31.930697 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:31.930724 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:32.929289 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:32.929311 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:33.780658 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:33.780691 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:34.545056 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:34.545076 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:35.209989 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:35.210010 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:35.722994 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:35.723020 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:36.209046 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:36.209066 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:39.817150 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:39.817178 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:40.561257 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:40.561285 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:41.251100 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:41.251152 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:42.306593 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:42.306624 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:43.224975 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:43.224996 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:44.264967 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:44.264987 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:45.249713 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:45.249734 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:46.281468 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:46.281491 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:47.209548 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:47.209589 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:48.096993 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:48.097013 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:48.994272 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:48.994293 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:49.889022 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:49.889051 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:50.897358 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:50.897389 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:51.760933 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:51.760955 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:52.553556 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:52.553581 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:53.288963 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:53.288984 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:54.224922 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:54.224943 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:55.209504 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:55.209528 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:56.105577 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:56.105611 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:57.057446 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:57.057469 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:57.945405 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:57.945433 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:58.833113 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:58.833134 init.go:17: 请求前
+[Debug] 2017/11/02 16:52:59.651112 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:52:59.651139 init.go:17: 请求前
+[Debug] 2017/11/02 16:53:00.577131 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:53:00.577152 init.go:17: 请求前
+[Debug] 2017/11/02 16:53:01.472865 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:53:01.472888 init.go:17: 请求前
+[Debug] 2017/11/02 16:53:02.400938 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:53:02.400959 init.go:17: 请求前
+[Debug] 2017/11/02 16:53:03.290837 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:53:03.290876 init.go:17: 请求前
+[Debug] 2017/11/02 16:53:04.132690 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:53:04.132728 init.go:17: 请求前
+[Debug] 2017/11/02 16:53:04.893564 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:53:04.893590 init.go:17: 请求前
+[Debug] 2017/11/02 16:53:05.650067 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:53:05.650088 init.go:17: 请求前
+[Debug] 2017/11/02 16:53:06.522758 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:53:06.522810 init.go:17: 请求前
+[Debug] 2017/11/02 16:53:07.321303 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/7bf47a7a-fb03-4b60-a57d-143917cebc4e
+[INFO] 2017/11/02 16:53:07.321322 init.go:17: 请求前
+[Debug] 2017/11/02 16:55:43.448868 tasks.go:63: 7bf47a7a-fb03-4b60-a57d-143917cebc4e %s already finish ...
+[Debug]2017/11/02 17:02:07.369935 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 17:02:07.475226 init.go:18: master db init success
+[Debug] 2017/11/02 17:02:07.475246 init.go:20: set master db logmode true
+[Debug] 2017/11/02 17:02:10.090300 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 17:02:10.090328 init.go:17: 请求前
+[Debug] 2017/11/02 17:02:10.090438 tasks.go:40: 22d5c263-6181-42cf-a875-a78a9d47a5f4 already start ...
+[Debug] 2017/11/02 17:02:19.464455 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/22d5c263-6181-42cf-a875-a78a9d47a5f4
+[INFO] 2017/11/02 17:02:19.464517 init.go:17: 请求前
+[Debug] 2017/11/02 17:02:20.766969 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/22d5c263-6181-42cf-a875-a78a9d47a5f4
+[INFO] 2017/11/02 17:02:20.766991 init.go:17: 请求前
+[Debug] 2017/11/02 17:02:21.462896 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/22d5c263-6181-42cf-a875-a78a9d47a5f4
+[INFO] 2017/11/02 17:02:21.462916 init.go:17: 请求前
+[Debug] 2017/11/02 17:02:25.416813 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/22d5c263-6181-42cf-a875-a78a9d47a5f4
+[INFO] 2017/11/02 17:02:25.416841 init.go:17: 请求前
+[Debug] 2017/11/02 17:02:26.262980 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/22d5c263-6181-42cf-a875-a78a9d47a5f4
+[INFO] 2017/11/02 17:02:26.263001 init.go:17: 请求前
+[Debug] 2017/11/02 17:03:50.193438 tasks.go:62: 22d5c263-6181-42cf-a875-a78a9d47a5f4 %s already finish ...
+[Debug]2017/11/02 17:05:40.235282 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 17:05:40.335554 init.go:18: master db init success
+[Debug] 2017/11/02 17:05:40.335578 init.go:20: set master db logmode true
+[Debug] 2017/11/02 17:05:46.281162 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 17:05:46.281221 init.go:17: 请求前
+[Debug] 2017/11/02 17:05:46.281403 tasks.go:39: 0b40ff21-a739-4224-9edb-3f7dcebc8896 already start ...
+[Debug] 2017/11/02 17:05:52.375614 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:05:52.375680 init.go:17: 请求前
+[Debug] 2017/11/02 17:05:53.830781 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:05:53.830805 init.go:17: 请求前
+[Debug] 2017/11/02 17:05:55.007256 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:05:55.007279 init.go:17: 请求前
+[Debug] 2017/11/02 17:05:56.070410 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:05:56.070430 init.go:17: 请求前
+[Debug] 2017/11/02 17:05:57.265850 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:05:57.265895 init.go:17: 请求前
+[Debug] 2017/11/02 17:05:58.334701 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:05:58.334720 init.go:17: 请求前
+[Debug] 2017/11/02 17:05:59.638359 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:05:59.638378 init.go:17: 请求前
+[Debug] 2017/11/02 17:06:00.694701 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:06:00.694757 init.go:17: 请求前
+[Debug] 2017/11/02 17:06:01.782388 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:06:01.782409 init.go:17: 请求前
+[Debug] 2017/11/02 17:06:02.686327 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:06:02.686347 init.go:17: 请求前
+[Debug] 2017/11/02 17:06:07.552279 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:06:07.552312 init.go:17: 请求前
+[Debug] 2017/11/02 17:06:09.002522 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:06:09.002580 init.go:17: 请求前
+[Debug] 2017/11/02 17:06:10.102201 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:06:10.102241 init.go:17: 请求前
+[Debug] 2017/11/02 17:06:10.974576 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:06:10.974641 init.go:17: 请求前
+[Debug] 2017/11/02 17:06:11.649529 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:06:11.649580 init.go:17: 请求前
+[Debug] 2017/11/02 17:06:55.806177 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:06:55.806206 init.go:17: 请求前
+[Debug] 2017/11/02 17:07:26.390173 tasks.go:61: 0b40ff21-a739-4224-9edb-3f7dcebc8896 %s already finish ...
+[Debug] 2017/11/02 17:09:36.797959 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:09:36.797985 init.go:17: 请求前
+[Debug] 2017/11/02 17:09:38.511181 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:09:38.511233 init.go:17: 请求前
+[Debug] 2017/11/02 17:09:39.669686 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/0b40ff21-a739-4224-9edb-3f7dcebc8896
+[INFO] 2017/11/02 17:09:39.669709 init.go:17: 请求前
+[Debug]2017/11/02 17:16:51.403592 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 17:16:51.511859 init.go:18: master db init success
+[Debug] 2017/11/02 17:16:51.511884 init.go:20: set master db logmode true
+[Debug]2017/11/02 17:17:00.055246 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 17:17:00.164516 init.go:18: master db init success
+[Debug] 2017/11/02 17:17:00.164534 init.go:20: set master db logmode true
+[Debug]2017/11/02 17:17:15.681896 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 17:17:15.782901 init.go:18: master db init success
+[Debug] 2017/11/02 17:17:15.782924 init.go:20: set master db logmode true
+[Debug] 2017/11/02 17:17:19.686944 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 17:17:19.687001 init.go:17: 请求前
+[Debug] 2017/11/02 17:17:19.687336 tasks.go:39: 3a24548b-ebf6-491b-8fab-6cabf8b8251a already start ...
+[Debug] 2017/11/02 17:17:24.118097 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/3a24548b-ebf6-491b-8fab-6cabf8b8251a
+[INFO] 2017/11/02 17:17:24.118141 init.go:17: 请求前
+[Debug] 2017/11/02 17:17:25.260512 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/3a24548b-ebf6-491b-8fab-6cabf8b8251a
+[INFO] 2017/11/02 17:17:25.260538 init.go:17: 请求前
+[Debug] 2017/11/02 17:17:26.138361 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/3a24548b-ebf6-491b-8fab-6cabf8b8251a
+[INFO] 2017/11/02 17:17:26.138424 init.go:17: 请求前
+[Debug] 2017/11/02 17:17:27.012678 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/3a24548b-ebf6-491b-8fab-6cabf8b8251a
+[INFO] 2017/11/02 17:17:27.012707 init.go:17: 请求前
+[Debug] 2017/11/02 17:17:27.900682 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/3a24548b-ebf6-491b-8fab-6cabf8b8251a
+[INFO] 2017/11/02 17:17:27.900715 init.go:17: 请求前
+[Debug] 2017/11/02 17:17:28.789289 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/3a24548b-ebf6-491b-8fab-6cabf8b8251a
+[INFO] 2017/11/02 17:17:28.789318 init.go:17: 请求前
+[Debug]2017/11/02 17:17:40.502121 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 17:17:40.606236 init.go:18: master db init success
+[Debug] 2017/11/02 17:17:40.606258 init.go:20: set master db logmode true
+[Debug] 2017/11/02 17:17:47.663478 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 17:17:47.663542 init.go:17: 请求前
+[Debug] 2017/11/02 17:17:47.663759 tasks.go:39: 4563844e-f170-4afc-874f-b5bca251a25c already start ...
+[Debug] 2017/11/02 17:17:54.380905 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/4563844e-f170-4afc-874f-b5bca251a25c
+[INFO] 2017/11/02 17:17:54.380953 init.go:17: 请求前
+[Debug] 2017/11/02 17:17:55.924798 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/4563844e-f170-4afc-874f-b5bca251a25c
+[INFO] 2017/11/02 17:17:55.924831 init.go:17: 请求前
+[Debug] 2017/11/02 17:17:57.236748 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/4563844e-f170-4afc-874f-b5bca251a25c
+[INFO] 2017/11/02 17:17:57.236771 init.go:17: 请求前
+[Debug] 2017/11/02 17:17:58.829742 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/4563844e-f170-4afc-874f-b5bca251a25c
+[INFO] 2017/11/02 17:17:58.829772 init.go:17: 请求前
+[Debug] 2017/11/02 17:18:28.068976 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/4563844e-f170-4afc-874f-b5bca251a25c
+[INFO] 2017/11/02 17:18:28.069009 init.go:17: 请求前
+[Debug] 2017/11/02 17:18:29.558488 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/4563844e-f170-4afc-874f-b5bca251a25c
+[INFO] 2017/11/02 17:18:29.558511 init.go:17: 请求前
+[Debug] 2017/11/02 17:18:30.838263 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/4563844e-f170-4afc-874f-b5bca251a25c
+[INFO] 2017/11/02 17:18:30.838291 init.go:17: 请求前
+[Debug] 2017/11/02 17:18:44.332723 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/4563844e-f170-4afc-874f-b5bca251a25c
+[INFO] 2017/11/02 17:18:44.332754 init.go:17: 请求前
+[Debug] 2017/11/02 17:18:45.318408 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/4563844e-f170-4afc-874f-b5bca251a25c
+[INFO] 2017/11/02 17:18:45.318430 init.go:17: 请求前
+[Debug] 2017/11/02 17:18:50.564652 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/4563844e-f170-4afc-874f-b5bca251a25c
+[INFO] 2017/11/02 17:18:50.564675 init.go:17: 请求前
+[Debug] 2017/11/02 17:19:23.958434 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 17:19:23.958517 init.go:17: 请求前
+[Debug] 2017/11/02 17:19:23.958712 tasks.go:39: 73db5aea-2eca-44d6-bf59-42417e72d98b already start ...
+[Debug] 2017/11/02 17:19:27.767409 tasks.go:61: 4563844e-f170-4afc-874f-b5bca251a25c %s already finish ...
+[Debug] 2017/11/02 17:19:28.690421 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:19:28.690457 init.go:17: 请求前
+[Debug] 2017/11/02 17:19:30.451160 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:19:30.451222 init.go:17: 请求前
+[Debug] 2017/11/02 17:19:32.487516 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:19:32.487591 init.go:17: 请求前
+[Debug] 2017/11/02 17:19:38.851768 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:19:38.851788 init.go:17: 请求前
+[Debug] 2017/11/02 17:19:43.788926 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:19:43.788953 init.go:17: 请求前
+[Debug] 2017/11/02 17:19:45.238083 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:19:45.238139 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:23.892888 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:23.892913 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:27.452869 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:27.452927 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:28.621677 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:28.621700 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:29.586149 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:29.586204 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:30.299856 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:30.299965 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:31.078850 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:31.078881 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:52.421832 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:52.421872 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:53.467736 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:53.467799 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:54.123190 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:54.123210 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:54.739682 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:54.739706 init.go:17: 请求前
+[Debug] 2017/11/02 17:20:55.305416 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/73db5aea-2eca-44d6-bf59-42417e72d98b
+[INFO] 2017/11/02 17:20:55.305457 init.go:17: 请求前
+[Debug] 2017/11/02 17:21:04.072354 tasks.go:61: 73db5aea-2eca-44d6-bf59-42417e72d98b %s already finish ...
+[Debug]2017/11/02 17:21:36.254326 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 17:21:36.358980 init.go:18: master db init success
+[Debug] 2017/11/02 17:21:36.359010 init.go:20: set master db logmode true
+[Debug] 2017/11/02 17:21:46.066561 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 17:21:46.066594 init.go:17: 请求前
+[Debug] 2017/11/02 17:21:46.066703 tasks.go:39: 76317ffb-72b7-40cd-9db2-0f5d11b2e45d already start ...
+[Debug] 2017/11/02 17:21:50.770992 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/76317ffb-72b7-40cd-9db2-0f5d11b2e45d
+[INFO] 2017/11/02 17:21:50.771053 init.go:17: 请求前
+[Debug] 2017/11/02 17:21:52.772429 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/76317ffb-72b7-40cd-9db2-0f5d11b2e45d
+[INFO] 2017/11/02 17:21:52.772475 init.go:17: 请求前
+[Debug] 2017/11/02 17:21:54.017798 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/76317ffb-72b7-40cd-9db2-0f5d11b2e45d
+[INFO] 2017/11/02 17:21:54.017846 init.go:17: 请求前
+[Debug] 2017/11/02 17:21:55.276808 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/76317ffb-72b7-40cd-9db2-0f5d11b2e45d
+[INFO] 2017/11/02 17:21:55.276861 init.go:17: 请求前
+[Debug] 2017/11/02 17:21:56.861527 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/76317ffb-72b7-40cd-9db2-0f5d11b2e45d
+[INFO] 2017/11/02 17:21:56.861572 init.go:17: 请求前
+[Debug] 2017/11/02 17:22:15.959839 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/76317ffb-72b7-40cd-9db2-0f5d11b2e45d
+[INFO] 2017/11/02 17:22:15.959903 init.go:17: 请求前
+[Debug] 2017/11/02 17:22:21.369953 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 17:22:21.370002 init.go:17: 请求前
+[Debug] 2017/11/02 17:22:21.370066 tasks.go:39: 395b7dc9-769f-4ae3-ae43-50b940658513 already start ...
+[Debug] 2017/11/02 17:22:26.166218 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/395b7dc9-769f-4ae3-ae43-50b940658513
+[INFO] 2017/11/02 17:22:26.166256 init.go:17: 请求前
+[Debug] 2017/11/02 17:22:27.467269 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/395b7dc9-769f-4ae3-ae43-50b940658513
+[INFO] 2017/11/02 17:22:27.467297 init.go:17: 请求前
+[Debug] 2017/11/02 17:22:28.338018 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/395b7dc9-769f-4ae3-ae43-50b940658513
+[INFO] 2017/11/02 17:22:28.338039 init.go:17: 请求前
+[Debug] 2017/11/02 17:23:11.913464 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/395b7dc9-769f-4ae3-ae43-50b940658513
+[INFO] 2017/11/02 17:23:11.913489 init.go:17: 请求前
+[Debug] 2017/11/02 17:23:13.029856 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/395b7dc9-769f-4ae3-ae43-50b940658513
+[INFO] 2017/11/02 17:23:13.029891 init.go:17: 请求前
+[Debug] 2017/11/02 17:23:13.657063 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/395b7dc9-769f-4ae3-ae43-50b940658513
+[INFO] 2017/11/02 17:23:13.657094 init.go:17: 请求前
+[Debug] 2017/11/02 17:23:14.217329 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/395b7dc9-769f-4ae3-ae43-50b940658513
+[INFO] 2017/11/02 17:23:14.217356 init.go:17: 请求前
+[Debug] 2017/11/02 17:23:26.162929 tasks.go:61: 76317ffb-72b7-40cd-9db2-0f5d11b2e45d %s already finish ...
+[Debug] 2017/11/02 17:24:01.480260 tasks.go:61: 395b7dc9-769f-4ae3-ae43-50b940658513 %s already finish ...
+[Debug] 2017/11/02 17:35:22.821115 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/395b7dc9-769f-4ae3-ae43-50b940658513
+[INFO] 2017/11/02 17:35:22.821159 init.go:17: 请求前
+[Debug]2017/11/02 18:19:59.255625 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:19:59.359879 init.go:18: master db init success
+[Debug] 2017/11/02 18:19:59.359912 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:20:03.066474 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:20:03.066527 init.go:17: 请求前
+[Debug] 2017/11/02 18:20:03.066675 tasks.go:41: 66001a17-cbac-4bea-a7be-1c215a5736c3 already start ...
+[Debug]2017/11/02 18:22:52.806639 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:22:52.916154 init.go:18: master db init success
+[Debug] 2017/11/02 18:22:52.916194 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:22:58.481976 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:22:58.482024 init.go:17: 请求前
+[Debug] 2017/11/02 18:22:58.482223 tasks.go:42: bcb6edb8-8b98-4df1-a42f-3132b183c063 already start ...
+[Debug]2017/11/02 18:24:26.780885 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:24:26.882790 init.go:18: master db init success
+[Debug] 2017/11/02 18:24:26.882813 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:24:30.227623 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:24:30.227677 init.go:17: 请求前
+[Debug] 2017/11/02 18:24:30.227883 tasks.go:42: 636091a0-c8eb-4d41-b7b1-de7aa29ffc12 already start ...
+[Debug] 2017/11/02 18:24:37.378842 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/636091a0-c8eb-4d41-b7b1-de7aa29ffc12
+[INFO] 2017/11/02 18:24:37.378875 init.go:17: 请求前
+[Debug] 2017/11/02 18:24:39.004951 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/636091a0-c8eb-4d41-b7b1-de7aa29ffc12
+[INFO] 2017/11/02 18:24:39.004988 init.go:17: 请求前
+[Debug] 2017/11/02 18:24:39.851432 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/636091a0-c8eb-4d41-b7b1-de7aa29ffc12
+[INFO] 2017/11/02 18:24:39.851460 init.go:17: 请求前
+[Debug] 2017/11/02 18:24:40.579133 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/636091a0-c8eb-4d41-b7b1-de7aa29ffc12
+[INFO] 2017/11/02 18:24:40.579196 init.go:17: 请求前
+[Debug]2017/11/02 18:26:03.597536 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:26:03.698687 init.go:18: master db init success
+[Debug] 2017/11/02 18:26:03.698711 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:26:06.557550 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:26:06.557584 init.go:17: 请求前
+[Debug] 2017/11/02 18:26:06.557703 tasks.go:42: 94bd5d22-8430-489f-a209-cbc52eb45c4f already start ...
+[Debug]2017/11/02 18:35:11.472272 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:35:11.576614 init.go:18: master db init success
+[Debug] 2017/11/02 18:35:11.576636 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:35:14.621374 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:35:14.621414 init.go:17: 请求前
+[Debug] 2017/11/02 18:35:14.621610 tasks.go:43: c2719189-bc21-4cac-ae70-0a2287d2d0d6 already start ...
+[Debug] 2017/11/02 18:35:14.621909 tasks.go:56: c2719189-bc21-4cac-ae70-0a2287d2d0d6 already running  pid %!s(int=0) ...
+[Debug] 2017/11/02 18:35:20.365308 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/c2719189-bc21-4cac-ae70-0a2287d2d0d6
+[INFO] 2017/11/02 18:35:20.365330 init.go:17: 请求前
+[Debug] 2017/11/02 18:35:21.625915 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/c2719189-bc21-4cac-ae70-0a2287d2d0d6
+[INFO] 2017/11/02 18:35:21.625946 init.go:17: 请求前
+[Debug] 2017/11/02 18:35:22.927501 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/c2719189-bc21-4cac-ae70-0a2287d2d0d6
+[INFO] 2017/11/02 18:35:22.927530 init.go:17: 请求前
+[Debug]2017/11/02 18:36:44.667982 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:36:44.774421 init.go:18: master db init success
+[Debug] 2017/11/02 18:36:44.774448 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:36:49.991261 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:36:49.991300 init.go:17: 请求前
+[Debug] 2017/11/02 18:36:49.991438 tasks.go:42: d66c1265-f543-461e-bf50-314cf6275e95 already start ...
+[Debug] 2017/11/02 18:36:49.991762 tasks.go:55: d66c1265-f543-461e-bf50-314cf6275e95 already running  pid 0
+[Debug] 2017/11/02 18:37:10.669937 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/d66c1265-f543-461e-bf50-314cf6275e95
+[INFO] 2017/11/02 18:37:10.669980 init.go:17: 请求前
+[Debug] 2017/11/02 18:37:13.061719 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/d66c1265-f543-461e-bf50-314cf6275e95
+[INFO] 2017/11/02 18:37:13.061746 init.go:17: 请求前
+[Debug] 2017/11/02 18:38:30.094409 tasks.go:65: d66c1265-f543-461e-bf50-314cf6275e95 %s already finish ...
+[Debug]2017/11/02 18:40:22.999209 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:40:23.101053 init.go:18: master db init success
+[Debug] 2017/11/02 18:40:23.101077 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:40:28.489503 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:40:28.489547 init.go:17: 请求前
+[Debug] 2017/11/02 18:40:28.489658 tasks.go:42: 041d5642-e357-46e0-a192-cd5439b35277 already start ...
+[Debug] 2017/11/02 18:40:28.489943 tasks.go:55: 041d5642-e357-46e0-a192-cd5439b35277 already running  pid 0
+[Debug] 2017/11/02 18:40:36.942069 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:40:36.942124 init.go:17: 请求前
+[Debug] 2017/11/02 18:40:38.184302 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:40:38.184334 init.go:17: 请求前
+[Debug] 2017/11/02 18:40:39.313684 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:40:39.313714 init.go:17: 请求前
+[Debug] 2017/11/02 18:40:41.174068 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:40:41.174091 init.go:17: 请求前
+[Debug] 2017/11/02 18:40:42.382914 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:40:42.382974 init.go:17: 请求前
+[Debug] 2017/11/02 18:40:43.571888 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:40:43.571928 init.go:17: 请求前
+[Debug] 2017/11/02 18:40:44.766515 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:40:44.766541 init.go:17: 请求前
+[Debug] 2017/11/02 18:40:57.226001 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:40:57.226032 init.go:17: 请求前
+[Debug] 2017/11/02 18:40:59.502644 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:40:59.502665 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:01.016436 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:01.016462 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:01.960609 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:01.960643 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:02.678079 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:02.678143 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:03.215283 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:03.215341 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:03.622464 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:03.622508 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:04.046437 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:04.046458 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:04.480323 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:04.480358 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:04.910296 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:04.910355 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:05.303690 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:05.303717 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:05.695569 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:05.695598 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:06.119726 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:06.119753 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:06.519100 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:06.519163 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:06.912554 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:06.912589 init.go:17: 请求前
+[Debug] 2017/11/02 18:41:07.286109 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/041d5642-e357-46e0-a192-cd5439b35277
+[INFO] 2017/11/02 18:41:07.286127 init.go:17: 请求前
+[Debug] 2017/11/02 18:42:08.615798 tasks.go:65: 041d5642-e357-46e0-a192-cd5439b35277 %s already finish ...
+[Debug]2017/11/02 18:46:38.202382 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:46:38.306379 init.go:18: master db init success
+[Debug] 2017/11/02 18:46:38.306410 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:46:50.647084 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:46:50.647106 init.go:17: 请求前
+[Debug] 2017/11/02 18:46:50.647215 tasks.go:38: a96ad7da-02f8-47ee-99b5-20d150e3adda already start ...
+[Debug] 2017/11/02 18:46:55.863653 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/a96ad7da-02f8-47ee-99b5-20d150e3adda
+[INFO] 2017/11/02 18:46:55.863712 init.go:17: 请求前
+[Debug] 2017/11/02 18:46:57.367987 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/a96ad7da-02f8-47ee-99b5-20d150e3adda
+[INFO] 2017/11/02 18:46:57.368019 init.go:17: 请求前
+[Debug] 2017/11/02 18:47:18.286853 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/a96ad7da-02f8-47ee-99b5-20d150e3adda
+[INFO] 2017/11/02 18:47:18.286883 init.go:17: 请求前
+[Debug] 2017/11/02 18:47:18.919697 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/a96ad7da-02f8-47ee-99b5-20d150e3adda
+[INFO] 2017/11/02 18:47:18.919726 init.go:17: 请求前
+[Debug] 2017/11/02 18:47:19.438141 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/a96ad7da-02f8-47ee-99b5-20d150e3adda
+[INFO] 2017/11/02 18:47:19.438200 init.go:17: 请求前
+[Debug]2017/11/02 18:48:35.681695 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:48:35.781680 init.go:18: master db init success
+[Debug] 2017/11/02 18:48:35.781701 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:48:38.957910 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:48:38.957947 init.go:17: 请求前
+[Debug] 2017/11/02 18:48:38.958063 tasks.go:39: b305c4c1-6517-4c06-8579-9d9aa8a83076 already start ...
+[Debug] 2017/11/02 18:48:38.958365 tasks.go:52: b305c4c1-6517-4c06-8579-9d9aa8a83076 already running  pid 0
+[Debug] 2017/11/02 18:48:46.616590 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/b305c4c1-6517-4c06-8579-9d9aa8a83076
+[INFO] 2017/11/02 18:48:46.616623 init.go:17: 请求前
+[Debug] 2017/11/02 18:48:47.608060 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/b305c4c1-6517-4c06-8579-9d9aa8a83076
+[INFO] 2017/11/02 18:48:47.608117 init.go:17: 请求前
+[Debug] 2017/11/02 18:48:48.359987 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/b305c4c1-6517-4c06-8579-9d9aa8a83076
+[INFO] 2017/11/02 18:48:48.360046 init.go:17: 请求前
+[Debug] 2017/11/02 18:48:56.982552 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/b305c4c1-6517-4c06-8579-9d9aa8a83076
+[INFO] 2017/11/02 18:48:56.982573 init.go:17: 请求前
+[Debug] 2017/11/02 18:48:57.777143 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/b305c4c1-6517-4c06-8579-9d9aa8a83076
+[INFO] 2017/11/02 18:48:57.777178 init.go:17: 请求前
+[Debug] 2017/11/02 18:48:58.520362 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/b305c4c1-6517-4c06-8579-9d9aa8a83076
+[INFO] 2017/11/02 18:48:58.520393 init.go:17: 请求前
+[Debug] 2017/11/02 18:49:41.872528 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/b305c4c1-6517-4c06-8579-9d9aa8a83076
+[INFO] 2017/11/02 18:49:41.872568 init.go:17: 请求前
+[Debug] 2017/11/02 18:49:42.206326 init.go:14: 客户端ip地址 127.0.0.1 请求URL /favicon.ico
+[INFO] 2017/11/02 18:49:42.206351 init.go:17: 请求前
+[Debug] 2017/11/02 18:49:47.276517 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/b305c4c1-6517-4c06-8579-9d9aa8a83076
+[INFO] 2017/11/02 18:49:47.276540 init.go:17: 请求前
+[Debug] 2017/11/02 18:49:50.040157 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/b305c4c1-6517-4c06-8579-9d9aa8a83076
+[INFO] 2017/11/02 18:49:50.040192 init.go:17: 请求前
+[Debug] 2017/11/02 18:50:01.321333 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/b305c4c1-6517-4c06-8579-9d9aa8a83076
+[INFO] 2017/11/02 18:50:01.321356 init.go:17: 请求前
+[Debug] 2017/11/02 18:50:19.049917 tasks.go:62: b305c4c1-6517-4c06-8579-9d9aa8a83076 %s already finish ...
+[Debug]2017/11/02 18:51:48.544289 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:51:48.641789 init.go:18: master db init success
+[Debug] 2017/11/02 18:51:48.641812 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:51:52.550696 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:51:52.550717 init.go:17: 请求前
+[Debug] 2017/11/02 18:51:52.550842 tasks.go:41: abcec8bb-a452-48c9-a19c-a221b96d9b88 already start ...
+[Debug] 2017/11/02 18:51:52.551076 tasks.go:54: abcec8bb-a452-48c9-a19c-a221b96d9b88 already running  pid 0
+[Debug] 2017/11/02 18:52:18.153845 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/abcec8bb-a452-48c9-a19c-a221b96d9b88
+[INFO] 2017/11/02 18:52:18.153905 init.go:17: 请求前
+[Debug] 2017/11/02 18:52:19.360451 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/abcec8bb-a452-48c9-a19c-a221b96d9b88
+[INFO] 2017/11/02 18:52:19.360482 init.go:17: 请求前
+[Debug]2017/11/02 18:58:09.622277 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 18:58:09.727330 init.go:18: master db init success
+[Debug] 2017/11/02 18:58:09.727404 init.go:20: set master db logmode true
+[Debug] 2017/11/02 18:58:14.368474 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 18:58:14.368497 init.go:17: 请求前
+[Debug] 2017/11/02 18:58:14.368601 tasks.go:41: 1322909e-c6f9-4b90-8134-292b681cf5ea already start ...
+[Debug] 2017/11/02 18:58:14.368795 tasks.go:54: 1322909e-c6f9-4b90-8134-292b681cf5ea already running  pid 0
+[Debug] 2017/11/02 18:58:26.712781 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/1322909e-c6f9-4b90-8134-292b681cf5ea
+[INFO] 2017/11/02 18:58:26.712804 init.go:17: 请求前
+[Debug]2017/11/02 19:00:14.482956 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:00:14.592485 init.go:18: master db init success
+[Debug] 2017/11/02 19:00:14.592525 init.go:20: set master db logmode true
+[Debug] 2017/11/02 19:00:17.393876 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 19:00:17.393933 init.go:17: 请求前
+[Debug] 2017/11/02 19:00:17.394083 tasks.go:43: 5fe7c908-6c67-4e09-b513-26a259ff773f already start ...
+[Debug] 2017/11/02 19:00:17.394564 tasks.go:56: 5fe7c908-6c67-4e09-b513-26a259ff773f already running  pid 0
+[Debug] 2017/11/02 19:00:35.734840 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/5fe7c908-6c67-4e09-b513-26a259ff773f
+[INFO] 2017/11/02 19:00:35.734863 init.go:17: 请求前
+[Debug]2017/11/02 19:01:38.505020 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:01:38.603534 init.go:18: master db init success
+[Debug] 2017/11/02 19:01:38.603558 init.go:20: set master db logmode true
+[Debug] 2017/11/02 19:01:41.990409 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 19:01:41.990431 init.go:17: 请求前
+[Debug] 2017/11/02 19:01:41.990517 tasks.go:45: 03235e54-0a3f-403c-9967-655aaa5b036c already start ...
+[Debug] 2017/11/02 19:01:41.990667 tasks.go:58: 03235e54-0a3f-403c-9967-655aaa5b036c already running  pid 0
+[Debug] 2017/11/02 19:03:22.088407 tasks.go:68: 03235e54-0a3f-403c-9967-655aaa5b036c %s already finish ...
+[Debug]2017/11/02 19:04:34.887319 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:04:34.989044 init.go:18: master db init success
+[Debug] 2017/11/02 19:04:34.989065 init.go:20: set master db logmode true
+[Debug] 2017/11/02 19:04:37.684687 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 19:04:37.684709 init.go:17: 请求前
+[Debug] 2017/11/02 19:04:37.684826 tasks.go:42: b82214f7-a588-43c3-9b17-b1551cd7f7dd already start ...
+[Debug] 2017/11/02 19:04:37.684991 tasks.go:55: b82214f7-a588-43c3-9b17-b1551cd7f7dd already running  pid 15377
+[Debug] 2017/11/02 19:06:17.815429 tasks.go:65: b82214f7-a588-43c3-9b17-b1551cd7f7dd %s already finish ...
+[Debug]2017/11/02 19:08:11.788358 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:08:11.890450 init.go:18: master db init success
+[Debug] 2017/11/02 19:08:11.890474 init.go:20: set master db logmode true
+[Debug]2017/11/02 19:08:15.757663 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:08:15.862897 init.go:18: master db init success
+[Debug] 2017/11/02 19:08:15.862926 init.go:20: set master db logmode true
+[Debug] 2017/11/02 19:08:21.630673 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 19:08:21.630710 init.go:17: 请求前
+[Debug] 2017/11/02 19:08:21.630820 tasks.go:42: 314d70e0-e569-4cc5-999d-1495ed28b53a already start ...
+[Debug] 2017/11/02 19:08:21.630988 tasks.go:48: 314d70e0-e569-4cc5-999d-1495ed28b53a already running  pid 15762
+[Debug] 2017/11/02 19:08:26.638191 tasks.go:58: 314d70e0-e569-4cc5-999d-1495ed28b53a %s already finish ...
+[Debug] 2017/11/02 19:08:28.412105 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/314d70e0-e569-4cc5-999d-1495ed28b53a
+[INFO] 2017/11/02 19:08:28.412156 init.go:17: 请求前
+[Debug] 2017/11/02 19:08:29.810165 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/314d70e0-e569-4cc5-999d-1495ed28b53a
+[INFO] 2017/11/02 19:08:29.810226 init.go:17: 请求前
+[Debug] 2017/11/02 19:09:44.265015 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[INFO] 2017/11/02 19:09:44.265050 init.go:17: 请求前
+[Debug] 2017/11/02 19:09:44.265158 tasks.go:42: 26a46011-39ed-46a1-8153-4a5338324bba already start ...
+[Debug] 2017/11/02 19:09:44.265436 tasks.go:48: 26a46011-39ed-46a1-8153-4a5338324bba already running  pid 15836
+[Debug] 2017/11/02 19:09:44.279572 tasks.go:58: 26a46011-39ed-46a1-8153-4a5338324bba %s already finish ...
+[Debug] 2017/11/02 19:09:47.963427 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/26a46011-39ed-46a1-8153-4a5338324bba
+[INFO] 2017/11/02 19:09:47.963461 init.go:17: 请求前
+[Debug]2017/11/02 19:12:21.371466 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:12:21.471586 init.go:18: master db init success
+[Debug] 2017/11/02 19:12:21.471608 init.go:20: set master db logmode true
+[Debug]2017/11/02 19:12:24.846427 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:12:24.954602 init.go:18: master db init success
+[Debug] 2017/11/02 19:12:24.954644 init.go:20: set master db logmode true
+[Debug] 2017/11/02 19:12:36.510211 init.go:14: 客户端ip地址 127.0.0.1 请求URL //cmdb/asset
+[Debug] 2017/11/02 19:12:39.953952 init.go:14: 客户端ip地址 127.0.0.1 请求URL /cmdb/asset
+[Debug] 2017/11/02 19:12:39.954983 asset.go:52: [{1 KD202.5.21 HSZN20170965 3BG1KL2 2020-10-10 00:00:00 +0800 CST 2017-10-10 00:00:00 +0800 CST 1 server qqqqqqqqqqqconfig remark 1-11 [] {0 } 1 {0 } 1 {0 } 1 2017-11-01 15:37:26 +0800 CST 2017-11-01 15:37:26 +0800 CST}]
+[Debug] 2017/11/02 19:12:39.955055 init.go:19: 客户端ip地址 127.0.0.1 请求URL /cmdb/asset
+[Debug] 2017/11/02 19:12:48.915546 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[Debug] 2017/11/02 19:12:48.915712 tasks.go:42: 9bc59b20-7656-4c98-9a3a-0df2f868a2ab already start ...
+[Debug] 2017/11/02 19:12:48.916031 tasks.go:48: 9bc59b20-7656-4c98-9a3a-0df2f868a2ab already running  pid 16154
+[Debug] 2017/11/02 19:12:59.074830 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/9bc59b20-7656-4c98-9a3a-0df2f868a2ab
+[Debug] 2017/11/02 19:13:00.379095 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/9bc59b20-7656-4c98-9a3a-0df2f868a2ab
+[Debug] 2017/11/02 19:13:03.394620 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/9bc59b20-7656-4c98-9a3a-0df2f868a2ab
+[Debug] 2017/11/02 19:13:03.937881 tasks.go:58: 9bc59b20-7656-4c98-9a3a-0df2f868a2ab %s already finish ...
+[Debug] 2017/11/02 19:13:04.481902 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/9bc59b20-7656-4c98-9a3a-0df2f868a2ab
+[Debug] 2017/11/02 19:13:05.745726 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/9bc59b20-7656-4c98-9a3a-0df2f868a2ab
+[Debug] 2017/11/02 19:13:47.571171 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[Debug] 2017/11/02 19:13:47.571303 tasks.go:42: 843c7365-102b-4f5d-b624-ead679407d17 already start ...
+[Debug] 2017/11/02 19:13:47.571500 tasks.go:48: 843c7365-102b-4f5d-b624-ead679407d17 already running  pid 16217
+[Debug] 2017/11/02 19:13:51.570870 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:13:53.569922 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:13:55.323784 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:13:55.961607 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:13:56.535913 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:13:57.144378 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:13:57.840065 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:13:58.540708 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:13:59.281362 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:13:59.988926 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:00.728560 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:01.402303 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:02.003241 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:02.641751 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:03.330568 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:04.036340 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:04.698216 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:06.250994 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:07.104020 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:07.839965 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:08.503712 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:09.239704 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:09.965150 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:10.769466 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:11.550128 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:12.160356 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:12.695601 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:13.127566 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:13.553350 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:13.999281 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:14.418369 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:19.172656 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:19.855408 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:20.642257 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:14:37.306705 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask/843c7365-102b-4f5d-b624-ead679407d17
+[Debug] 2017/11/02 19:16:28.950583 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[Debug] 2017/11/02 19:16:28.950743 tasks.go:42: 53f80e53-0090-4fc4-ad53-2b9bd54187d1 already start ...
+[Debug] 2017/11/02 19:16:28.951005 tasks.go:48: 53f80e53-0090-4fc4-ad53-2b9bd54187d1 already running  pid 16292
+[Debug] 2017/11/02 19:17:06.280934 tasks.go:58: 843c7365-102b-4f5d-b624-ead679407d17 %s already finish ...
+[Debug] 2017/11/02 19:17:10.849073 tasks.go:58: 53f80e53-0090-4fc4-ad53-2b9bd54187d1 %s already finish ...
+[Debug]2017/11/02 19:19:07.315038 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:19:07.417389 init.go:18: master db init success
+[Debug] 2017/11/02 19:19:07.417412 init.go:20: set master db logmode true
+[Debug]2017/11/02 19:19:11.217025 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:19:11.316846 init.go:18: master db init success
+[Debug] 2017/11/02 19:19:11.316871 init.go:20: set master db logmode true
+[Debug] 2017/11/02 19:19:18.029897 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[Debug] 2017/11/02 19:19:18.030011 tasks.go:45: 28bfaa9f-67ff-41a4-b274-826a87afd437 already start ...
+[Debug] 2017/11/02 19:19:18.030201 tasks.go:51: 28bfaa9f-67ff-41a4-b274-826a87afd437 already running  pid 16589
+[Debug] 2017/11/02 19:19:31.838457 tasks.go:61: 28bfaa9f-67ff-41a4-b274-826a87afd437 16589  already finish ...
+[Debug] 2017/11/02 19:19:31.838477 tasks.go:38: signal: terminated
+[Debug]2017/11/02 19:21:54.248808 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:21:54.349284 init.go:18: master db init success
+[Debug] 2017/11/02 19:21:54.349308 init.go:20: set master db logmode true
+[Debug] 2017/11/02 19:21:58.558357 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[Debug] 2017/11/02 19:21:58.558511 tasks.go:47: 86fa0a07-765a-4ee6-94ff-f9a58d788564 already start ...
+[Debug] 2017/11/02 19:21:58.558839 tasks.go:53: 86fa0a07-765a-4ee6-94ff-f9a58d788564 already running  pid 16871
+[Debug] 2017/11/02 19:22:08.148426 tasks.go:63: 86fa0a07-765a-4ee6-94ff-f9a58d788564 16871  already finish ...
+[Debug] 2017/11/02 19:22:08.148519 tasks.go:38: 16871 异常退出 signal: killed
+[Debug] 2017/11/02 19:22:49.168894 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[Debug] 2017/11/02 19:22:49.169053 tasks.go:47: a4a9398d-3429-4405-94eb-11e862c943b4 already start ...
+[Debug] 2017/11/02 19:22:49.169451 tasks.go:53: a4a9398d-3429-4405-94eb-11e862c943b4 already running  pid 16911
+[Debug] 2017/11/02 19:23:04.188422 tasks.go:63: a4a9398d-3429-4405-94eb-11e862c943b4 16911  already finish ...
+[Debug] 2017/11/02 19:23:04.188457 tasks.go:40: 16911 正常退出 <nil>
+[Debug]2017/11/02 19:25:33.303520 log.go:39: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:25:33.403400 init.go:18: master db init success
+[Debug] 2017/11/02 19:25:33.403423 init.go:20: set master db logmode true
+[Debug] 2017/11/02 19:25:37.188046 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[Debug] 2017/11/02 19:25:37.188312 tasks.go:47: e08abe51-7df5-4dd1-ba76-f0b0586e4c26 already start ...
+[Debug] 2017/11/02 19:25:37.189811 tasks.go:53: e08abe51-7df5-4dd1-ba76-f0b0586e4c26 子任务进程 already running  pid 17231
+[Debug] 2017/11/02 19:25:52.212423 tasks.go:63: e08abe51-7df5-4dd1-ba76-f0b0586e4c26 17231 子任务进程 already finish ...
+[Debug] 2017/11/02 19:25:52.212454 tasks.go:40: 子任务进程 17231 正常退出
+[Debug]2017/11/02 19:31:02.380280 log.go:44: 初始化 Debug 日志成功
+[Debug] 2017/11/02 19:31:02.485669 init.go:18: master db init success
+[Debug] 2017/11/02 19:31:02.485690 init.go:20: set master db logmode true
+[Error] 2017/11/02 19:31:02.485695 init.go:21: error 测试
+[Debug] 2017/11/02 19:31:10.597121 init.go:14: 客户端ip地址 127.0.0.1 请求URL /task/longtask
+[Debug] 2017/11/02 19:31:10.597345 tasks.go:47: ff8806c6-15c4-4da5-9f07-124dd8755a4c already start ...
+[Debug] 2017/11/02 19:31:10.597881 tasks.go:53: ff8806c6-15c4-4da5-9f07-124dd8755a4c 子任务进程 already running  pid 17602
+[Debug] 2017/11/02 19:31:25.626659 tasks.go:63: ff8806c6-15c4-4da5-9f07-124dd8755a4c 17602 子任务进程 already finish ...
+[Error] 2017/11/02 19:31:25.626686 tasks.go:40: 子任务进程 17602 正常退出
+[Warning]2017/11/02 19:32:06.289383 log.go:44: 初始化 Warning 日志成功
+[Error] 2017/11/02 19:32:06.387724 init.go:21: error 测试
+[Error] 2017/11/02 19:32:23.825091 tasks.go:40: 子任务进程 17647 正常退出

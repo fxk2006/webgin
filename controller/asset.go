@@ -5,9 +5,8 @@ import (
 	"webgin/model"
 	"github.com/jinzhu/gorm"
 	"webgin/util"
-	"fmt"
-	"strconv"
-	"strings"
+	"io/ioutil"
+	"encoding/json"
 )
 
 type PublicUtil struct {
@@ -15,40 +14,43 @@ type PublicUtil struct {
 	Log *util.Log
 }
 
-func (this PublicUtil) GetJson(c *gin.Context, T interface{}) {
-	err := c.BindJSON(&T)
-	if err != nil {
-		this.Log.Debug(err)
-		c.AbortWithError(400, err)
-	}
+func (this PublicUtil)Head(c *gin.Context)  {
+	c.Status(200)
 }
+func (this PublicUtil)Options(c *gin.Context)  {
+	c.Status(200)
+}
+func (this PublicUtil)Patch(c *gin.Context)  {
+	c.Status(200)
+}
+func (this PublicUtil)Connect(c *gin.Context)  {
+	c.Status(200)
+}
+func (this PublicUtil)Trace(c *gin.Context)  {
+	c.Status(200)
+}
+//func (this PublicUtil)Any(c *gin.Context)  {
+//	switch c.Request.Method{
+//	case "GET":
+//		this.Get(c)
+//
+//
+//	}
+//}
+
 
 type AssetController struct {
 	PublicUtil
 }
 
-func (this AssetController) Get(c *gin.Context) {
-	//cmdb/asset/*id
-	id := c.Param("id")
-	if id != "/" {
-		if intId, err := strconv.Atoi(strings.TrimLeft(id,"/")); err == nil {
-			var asset model.Asset
-			this.DB.First(&asset, intId)
-			c.IndentedJSON(200, asset.ToMapJson())
-			return
-		}else {
-			c.IndentedJSON(400, gin.H{
-				"reason":err,
-			})
-			return
-		}
+func (this *AssetController) Get(c *gin.Context) {
 
-	}
 	limit := c.DefaultQuery("limit", "10")
 	offset := c.DefaultQuery("offset", "0")
 	var assets model.ListAsset
 	this.DB.Limit(limit).Offset(offset).Find(&assets)
 	this.Log.Debug(assets)
+
 	c.IndentedJSON(200, gin.H{
 		"Total":  len(assets),
 		"Data":   assets.ToListJson(),
@@ -56,19 +58,35 @@ func (this AssetController) Get(c *gin.Context) {
 		"Offset": offset,
 	})
 }
-func (this AssetController) Post(c *gin.Context) {
+
+func (this *AssetController) Post(c *gin.Context) {
+
+	var assetJson model.AssetJson
+	c.BindJSON(&assetJson)
+	if this.DB.Create(&assetJson).Error != nil {
+		c.JSON(200, assetJson)
+		this.Log.Debug("chucuola")
+		return
+	}
+	c.JSON(200, assetJson)
+}
+func (this *AssetController) Put(c *gin.Context) {
+	id := c.Param("id")
 	var asset model.Asset
-	c.BindJSON(&asset)
-	fmt.Println(asset)
-	c.JSON(200, asset)
+	bytearray, _ := ioutil.ReadAll(c.Request.Body)
+	var container gin.H
+	json.Unmarshal(bytearray, &container)
+	db := this.DB.First(&asset, "id = ?", id)
+	for k, v := range container {
+		db.Update(k, v)
+	}
+	c.JSON(200, container)
 }
-func (this AssetController) Put(c *gin.Context) {
-	c.String(200, "hello world")
-}
-func (this AssetController) Delete(c *gin.Context) {
+func (this *AssetController) Delete(c *gin.Context) {
 	id := c.Param("id")
 	this.DB.Where("id = ?", id).Delete(&model.Asset{})
 	c.JSON(200, gin.H{
 		"Result": "",
 	})
 }
+

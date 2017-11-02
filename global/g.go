@@ -23,6 +23,9 @@ var Config = readConfig(configName)
 var getLogLevel = func(conf *config.Config) (byte) {
 	level, _ := conf.String("log", "level")
 	//忽略大小写比较
+	if strings.EqualFold("error", level) {
+		return util.Error
+	}
 	if strings.EqualFold("debug", level) {
 		return util.Debug
 	}

@@ -18,6 +18,7 @@ func (this HostController) Get(c *gin.Context) {
 func (this HostController) Post(c *gin.Context) {
 	c.String(200, "hello world")
 }
+
 func (this HostController) Put(c *gin.Context) {
 	c.String(200, "hello world")
 }

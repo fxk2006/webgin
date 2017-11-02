@@ -10,6 +10,7 @@ const (
 	Debug   = iota
 	Info
 	Warning
+	Error
 )
 
 type Log struct {
@@ -28,16 +29,26 @@ func New(level byte, fileName string) *Log {
 	switch level {
 	case Debug:
 		flag = " Debug "
-		Logger.SetPrefix("[ Debug ]")
+		Logger.SetPrefix("[Debug]")
 	case Info:
 		flag = " Info "
-		Logger.SetPrefix("[ Info ]")
+		Logger.SetPrefix("[Info]")
 	case Warning:
 		flag = " Warning "
-		Logger.SetPrefix("[ Warning ]")
+		Logger.SetPrefix("[Warning]")
+	case Error:
+		flag = " Error "
+		Logger.SetPrefix("[Error]")
+
 	}
 	Logger.Printf("初始化%s日志成功", flag)
 	return &Log{level, fileName, Logger}
+}
+func (l *Log) Error(v ...interface{}) {
+	if Error >= l.Level {
+		l.Logger.SetPrefix("[Error] ")
+		l.Logger.Output(2, fmt.Sprintln(v...))
+	}
 }
 func (l *Log) Debug(v ...interface{}) {
 	if Debug >= l.Level {

@@ -28,6 +28,21 @@ type Asset struct {
 	UpdatedAt       time.Time //更新时间
 }
 
+type AssetJson struct {
+	AssetLabel    string
+	AssetNum      string    //资产编号 财务编码
+	AssetSN       string    //资产sn
+	ExpiredTime   time.Time //过期时间
+	OnlineTime    time.Time //上线时间
+	Status        byte      //状态
+	AssetType     string    //资产类型
+	Config        string    //配置信息
+	Remark        string    //备注
+	Position      string    //机柜位置
+	Dept          string
+	ServerVersion string
+	Idc           string
+}
 type ListAsset []Asset
 
 func (this ListAsset) ToListJson() (container []gin.H) {
@@ -39,18 +54,17 @@ func (this ListAsset) ToListJson() (container []gin.H) {
 func (this *Asset) ToMapJson() gin.H {
 	return gin.H{
 		"id":            this.ID,
-		"asset_label":   this.AssetLabel,
-		"asset_num":     this.AssetNum,
-		"asset_sn":      this.AssetSN,
-		"expired_time":  this.ExpiredTime,
-		"online_time":   this.OnlineTime,
-		"status":        this.Status,
-		"asset_type":    this.AssetType,
-		"config":        this.Config,
+		"AssetLabel":    this.AssetLabel,
+		"AssetNum":      this.AssetNum,
+		"AssetSN":       this.AssetSN,
+		"ExpiredTime":   this.ExpiredTime,
+		"OnlineTime":    this.OnlineTime,
+		"Status":        this.Status,
+		"AssetType":     this.AssetType,
+		"Config":        this.Config,
 		"Remark":        this.Remark,
 		"Dept":          this.Dept.Name,
 		"ServerVersion": this.ServerVersion.Version,
 		"Idc":           this.Idc.Name,
 	}
-
 }
