@@ -46,26 +46,30 @@ func New(level byte, fileName string) *Log {
 }
 func (l *Log) Error(v ...interface{}) {
 	if Error >= l.Level {
-		l.Logger.SetPrefix("[Error] ")
+		prefix := ColorNew(正常,前景白,背景红).Out("[ERROR] ")
+		l.Logger.SetPrefix(prefix)
 		l.Logger.Output(2, fmt.Sprintln(v...))
 	}
 }
 func (l *Log) Debug(v ...interface{}) {
 	if Debug >= l.Level {
-		l.Logger.SetPrefix("[Debug] ")
+		prefix := ColorNew(正常,前景白,背景蓝).Out("[DEBUG] ")
+		l.Logger.SetPrefix(prefix)
 		l.Logger.Output(2, fmt.Sprintln(v...))
 	}
 
 }
 func (l *Log) Info(v ...interface{}) {
 	if Info >= l.Level {
-		l.Logger.SetPrefix("[INFO] ")
+		prefix := ColorNew(正常,前景白,背景绿).Out("[INFO ] ")
+		l.Logger.SetPrefix(prefix)
 		l.Logger.Output(2, fmt.Sprintln(v...))
 	}
 }
 func (l *Log) Warning(v ...interface{}) {
 	if Warning >= l.Level {
-		l.Logger.SetPrefix("[Warning] ")
+		prefix := ColorNew(正常,前景白,背景黄).Out("[WARN ] ")
+		l.Logger.SetPrefix(prefix)
 		l.Logger.Output(2, fmt.Sprintln(v...))
 	}
 }

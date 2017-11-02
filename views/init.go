@@ -60,8 +60,9 @@ func Init() {
 
 func Start() {
 	Init()
-	ip, _ := global.Config.String("server", "listen")
-	port, _ := global.Config.String("server", "port")
+	server := global.SERVER
+	ip, _ := global.Config.String(server, "listen")
+	port, _ := global.Config.String(server, "port")
 	addr := ip + ":" + port
 	Engine.Run(addr)
 }

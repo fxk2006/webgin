@@ -7,8 +7,10 @@ import (
 	"strings"
 )
 
-const configName = "conf.ini"
-const logName = "log.log"
+
+var Config = readConfig(configName)
+
+var logName, _ = Config.String(LOG, "name")
 
 var readConfig = func(name string) (*config.Config) {
 	conf, err := config.ReadDefault(configName)
@@ -17,8 +19,6 @@ var readConfig = func(name string) (*config.Config) {
 	}
 	return conf
 }
-
-var Config = readConfig(configName)
 
 var getLogLevel = func(conf *config.Config) (byte) {
 	level, _ := conf.String("log", "level")
@@ -40,3 +40,8 @@ var getLogLevel = func(conf *config.Config) (byte) {
 }
 var GLog *util.Log = util.New(getLogLevel(Config), logName)
 
+var LogError= func(err error){
+	if err!=nil{
+		GLog.Error(err)
+	}
+}
