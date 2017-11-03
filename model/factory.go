@@ -20,7 +20,6 @@ func getMysqlUrl(conf *config.Config) (url string) {
 	database, _ := conf.String(mysql, "database")
 	url = fmt.Sprintf("%s:%s@tcp(%s:3306)/%s?charset=utf8&parseTime=True&loc=Local", user, password, host, database)
 	//https://github.com/go-sql-driver/mysql#timetime-support
-	fmt.Println(url)
 	return
 }
 
@@ -31,10 +30,10 @@ func getSqliteUrl(conf *config.Config) (url string) {
 }
 
 func connectDB(conf *config.Config) (db *gorm.DB) {
-	database := global.DATABASE
+	dataBase := global.DATABASE
 	sqlite := global.SQLITE
 	mysql := global.MYSQL
-	database, err := conf.String(database, "database")
+	database, err := conf.String(dataBase, "database")
 	if err != nil {
 		log.Fatalln(err)
 	}

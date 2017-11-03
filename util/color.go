@@ -3,6 +3,7 @@ package util
 import "fmt"
 
 //https://github.com/fatih/color/blob/master/color.go
+//http://blog.csdn.net/codingwangfeng/article/details/6957079
 type Style byte
 type Fg byte
 type Bg byte
@@ -12,20 +13,21 @@ const start = "\033["
 const end = "\033[" + 默认
 const (
 	正常 Style = 0
-	闪烁 = 5
-	下划线 = 4
-	粗线 = 1
+	黯淡
+	加深
+	斜体
+	下划线
+	闪烁
 )
 const (
 	前景黑 Fg = iota + 30
-	前景红
-	前景绿
-	前景黄
-	前景蓝
-	前景紫红
-	前景青蓝
-	前景灰
-	前景白
+	前景红 //31
+	前景绿 //32
+	前景黄 //33
+	前景蓝 //34
+	前景紫红 //35
+	前景青蓝 //36
+	前景白 //37
 )
 const (
 	背景黑 Bg = iota + 40

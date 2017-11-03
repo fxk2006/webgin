@@ -35,9 +35,9 @@ func ExecCommand(cmd string) (result io.ReadCloser,pid int, err error) {
 	go func() {
 		err :=command.Wait()
 		if err != nil{
-			global.GLog.Debug("子任务进程",pid,"异常退出",err)
+			global.GLog.Error("子任务进程",pid,"异常退出",err)
 		}else {
-			global.GLog.Error("子任务进程",pid,"正常退出")
+			global.GLog.Debug("子任务进程",pid,"正常退出")
 		}
 	}()
 	return
